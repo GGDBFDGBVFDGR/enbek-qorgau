@@ -796,6 +796,16 @@ html[data-theme="light"] .bar {
   background: rgba(23, 36, 30, 0.05);
 }
 html[data-theme="light"] .topic:hover { background: rgba(23, 36, 30, 0.05); }
+html[data-theme="light"] .aid-tab.is-active {
+  background: #17241e;
+  color: #f7f4ee;
+}
+html[data-theme="light"] .option.is-correct,
+html[data-theme="light"] .option.is-wrong {
+  color: #f7f4ee;
+}
+html[data-theme="light"] .option.is-correct { background: var(--ok); }
+html[data-theme="light"] .option.is-wrong { background: #8d3328; }
 html[data-theme="light"] .btn-ghost,
 html[data-theme="light"] .lab-card,
 html[data-theme="light"] .norms th,
