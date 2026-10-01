@@ -261,7 +261,7 @@
       footerFac: "Mining Faculty · Abylkas Saginov Karaganda Technical University",
       footerNote: "An introduction based on the 2023 syllabus. The exact measurement procedure is given in class. In a severe case, 103 or 112 decides.",
       instagram: "Department Instagram",
-      authors: "Developers: SIB 23-1, Сұлтан Гүлнұр and Жамбылова Нұрай. Instructor: Исаков Б.Е.",
+      authors: "Developers: SIB 23-1, Gulnur Sultan and Nurai Zhambylova. Instructor: B.E. Isakov.",
       fireTitle: "Which fire, which agent",
       fireD: "If metal is burning (class D), a special powder is needed. Do not pour water on it.",
       you: "What you do",

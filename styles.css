@@ -678,7 +678,7 @@ h3 { margin: 0 0 8px; font-size: 1.35rem; }
 .brand {
   display: flex;
   gap: 14px;
-  align-items: center;
+  align-items: flex-start;
   max-width: 640px;
 }
 .brand img {
@@ -697,6 +697,7 @@ h3 { margin: 0 0 8px; font-size: 1.35rem; }
 }
 .footer strong { color: var(--cream); }
 .footer a { color: var(--amber-2); }
+.authors { margin: 8px 0 0; line-height: 1.45; }
 
 @media (max-width: 980px) {
   .hero-grid, .grid-2, .plan-layout, .aid-layout, .footer-inner { grid-template-columns: 1fr; display: grid; }
