@@ -1,6 +1,17 @@
+window.LAB_HEAD = [
+  { kk: "Микроклимат", ru: "Микроклимат", en: "Microclimate" },
+  { kk: "Жарықтану", ru: "Освещение", en: "Lighting" },
+  { kk: "Ауаның шаңы", ru: "Запылённость воздуха", en: "Air dust" },
+  { kk: "Зиянды заттар", ru: "Вредные вещества", en: "Harmful substances" },
+  { kk: "Шу", ru: "Шум", en: "Noise" },
+  { kk: "Діріл", ru: "Вибрация", en: "Vibration" },
+  { kk: "Қорғаныш жерге қосу", ru: "Защитное заземление", en: "Protective earthing" },
+  { kk: "Өрт сөндіру", ru: "Пожаротушение", en: "Firefighting" }
+];
+
 window.labManual = function (index, lang) {
-  const kk = lang !== "ru";
   const pages = {
+    0: meteo,
     1: light,
     2: dust,
     3: harm,
@@ -10,7 +21,9 @@ window.labManual = function (index, lang) {
     7: fire
   };
   const page = pages[index];
-  return page ? page(kk) : "";
+  if (!page) return "";
+  if (lang === "en") return page.en();
+  return page(lang !== "ru");
 };
 
 function light(kk) {

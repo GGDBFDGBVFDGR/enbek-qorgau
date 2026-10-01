@@ -6,12 +6,18 @@
   <title>Еңбекті қорғау</title>
   <meta name="description" content="Әбілқас Сағынов атындағы Қарағанды техникалық университеті. Еңбекті қорғау пәні: тақырыптар, зертхана және алғашқы көмек.">
   <meta name="theme-color" content="#08120f">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("eq-theme");
+      if (savedTheme === "light" || savedTheme === "dark") document.documentElement.dataset.theme = savedTheme;
+    } catch (error) { /* keep dark */ }
+  </script>
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <a class="skip" href="#main" data-i18n="skip">Негізгіге өту</a>
@@ -37,7 +43,9 @@
       <div class="langs" role="group" aria-label="Language">
         <button type="button" data-set-lang="kk">ҚАЗ</button>
         <button type="button" data-set-lang="ru">РУС</button>
+        <button type="button" data-set-lang="en">ENG</button>
       </div>
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-pressed="false">☀</button>
     </div>
   </header>
 
@@ -55,7 +63,6 @@
           <ul class="stats">
             <li><b>5</b><span data-i18n="statCredit">кредит</span></li>
             <li><b>30</b><span data-i18n="statLec">дәріс</span></li>
-            <li><b>15</b><span data-i18n="statPrac">практика</span></li>
             <li><b>15</b><span data-i18n="statLab">зертхана</span></li>
           </ul>
         </div>
@@ -205,7 +212,6 @@
 
   <script src="vendor/three.min.js"></script>
   <script src="scene.js"></script>
-  <script src="labs-detail.js?v=5"></script>
-  <script src="app.js?v=6"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

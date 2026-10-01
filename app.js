@@ -19,7 +19,7 @@
       dragHint: "Касканы сүйреп айналдырыңыз",
       helmetAria: "Айналмалы үшөлшемді қорғаныс каскасы",
       statCredit: "кредит",
-      statLec: "дәріс, сағат",
+      statLec: "дәріс",
       statPrac: "практика",
       statLab: "зертхана",
       aboutKicker: "Белгі не дейді",
@@ -45,13 +45,13 @@
       out4: "Осыны дипломдық жобадағы нақты орынға жазасыз.",
       planKicker: "Тақырыптық жоспар",
       planTitle: "Дәрісте не өтесіз",
-      planLead: "Алғашқы 13 тақырып — дәріс және практика. 14–21-тақырыптар төмендегі зертханалар. Сағат жазуы: дәріс + практика.",
+      planLead: "Алғашқы 13 тақырып — дәріс және практика. 14–21-тақырыптар төмендегі зертханалар.",
       selfTitle: "Өзіндік жұмыста",
       self1: "Еңбекті қорғауды басқару жүйесіне қойылатын талапты анықтау.",
       self2: "Жұмыс орнындағы еңбек жағдайын бағалау.",
       self3: "Қызметкердің кәсіби тәуекелін бағалау.",
       self4: "Өндірістік жарақат пен кәсіптік ауруға талдау жасау.",
-      labsKicker: "Зертхана · 15 сағат",
+      labsKicker: "Зертхана",
       labsTitle: "Зертханада нені өлшейсіз",
       labsLead: "Картаны айналдырыңыз. Әр зертхана — бір өлшем және бір шешім: нормадан асса, не өзгереді.",
       prev: "Артқа",
@@ -84,7 +84,10 @@
       fireTitle: "Қай өртке қай құрал",
       fireD: "Металл жанса (D сыныбы), арнайы ұнтақ керек. Оған су құйылмайды.",
       you: "Не істейсіз",
-      why: "Неге керек"
+      why: "Неге керек",
+      principle: "Жұмыс принципі",
+      themeLight: "Ашық тақырып",
+      themeDark: "Қараңғы тақырып"
     },
     ru: {
       title: "Охрана труда",
@@ -105,7 +108,7 @@
       dragHint: "Потяните каску, чтобы вращать",
       helmetAria: "Трёхмерная защитная каска, которую можно вращать",
       statCredit: "кредитов",
-      statLec: "часов лекций",
+      statLec: "лекции",
       statPrac: "практика",
       statLab: "лабораторные",
       aboutKicker: "Что говорит знак",
@@ -131,13 +134,13 @@
       out4: "Переносить это в конкретное место дипломного проекта.",
       planKicker: "Тематический план",
       planTitle: "Что проходит на лекциях",
-      planLead: "Первые 13 тем — лекции и практика. Темы 14–21 — лабораторные ниже. Часы указаны так: лекция + практика.",
+      planLead: "Первые 13 тем — лекции и практика. Темы 14–21 — лабораторные ниже.",
       selfTitle: "В самостоятельной работе",
       self1: "Определить требования к системе управления охраной труда.",
       self2: "Оценить условия труда на рабочем месте.",
       self3: "Оценить профессиональный риск работника.",
       self4: "Проанализировать производственный травматизм и профзаболевания.",
-      labsKicker: "Лабораторные · 15 часов",
+      labsKicker: "Лабораторные",
       labsTitle: "Что измеряют в лаборатории",
       labsLead: "Поверните карточки. Каждая лабораторная — одно измерение и одно решение: что меняется, если результат выше нормы.",
       prev: "Назад",
@@ -170,44 +173,144 @@
       fireTitle: "Какой пожар каким средством",
       fireD: "Если горит металл (класс D), нужен специальный порошок. Воду на него не льют.",
       you: "Что делаете",
-      why: "Зачем это"
+      why: "Зачем это",
+      principle: "Принцип работы",
+      themeLight: "Светлая тема",
+      themeDark: "Тёмная тема"
+    },
+    en: {
+      title: "Occupational safety",
+      skip: "Skip to content",
+      menu: "Menu",
+      logo: "Occupational safety",
+      logoAlt: "Mark of the Industrial Safety and Ecology department: health, environment, safety",
+      navAbout: "Subject",
+      navPlan: "Plan",
+      navLabs: "Labs",
+      navAid: "First aid",
+      navCheck: "Check",
+      heroTitle: "Occupational safety",
+      heroLead: "A short introduction for another speciality. What the subject is, what the lectures cover, what you measure in the lab, and how to help a person in the first minute.",
+      ctaAbout: "Understand the subject",
+      ctaLabs: "8 labs",
+      ctaAid: "First aid",
+      dragHint: "Drag the helmet to rotate it",
+      helmetAria: "A three-dimensional safety helmet you can rotate",
+      statCredit: "credits",
+      statLec: "lectures",
+      statPrac: "practice",
+      statLab: "labs",
+      aboutKicker: "What the mark says",
+      aboutTitle: "Three rings — the core of the subject",
+      iconLead: "The letters in the centre are the Mining Faculty. Three rings are the department’s three directions: health, environment and safety. Occupational safety sits where they meet.",
+      pHealth: "Health",
+      pHealthText: "Noise, dust, light, microclimate and harmful substances weaken a person gradually.",
+      pEnv: "Environment",
+      pEnvText: "Air, dust and emissions at the workplace are measured and compared with the norm.",
+      pSafe: "Safety",
+      pSafeText: "Electricity, fire, injury and protective equipment are what prevent an accident.",
+      goalTitle: "Aim",
+      goalText: "The course builds the basic knowledge a student needs to organise safe and healthy working conditions on their own.",
+      taskTitle: "Tasks",
+      task1: "Study the law on safety and occupational health.",
+      task2: "Understand how an organisation manages occupational safety.",
+      task3: "Assess professional risk and reduce it.",
+      task4: "Keep the workplace and the process safe.",
+      outcomeTitle: "After the course you can",
+      out1: "Tell workplace hazards apart: electricity, fire, noise, dust, poor light.",
+      out2: "Measure air, light, noise, vibration and earthing and compare them with the norm.",
+      out3: "Choose an extinguisher and a first-aid step.",
+      out4: "Put this into a specific place in the diploma project.",
+      planKicker: "Topic plan",
+      planTitle: "What the lectures cover",
+      planLead: "The first 13 topics are lectures and practice. Topics 14–21 are the labs below.",
+      selfTitle: "In independent work",
+      self1: "State the requirements for an occupational safety management system.",
+      self2: "Assess working conditions at a workplace.",
+      self3: "Assess a worker’s professional risk.",
+      self4: "Analyse injuries and occupational diseases.",
+      labsKicker: "Labs",
+      labsTitle: "What you measure in the lab",
+      labsLead: "Turn the cards. Each lab is one measurement and one decision: what changes if the result is above the norm.",
+      prev: "Back",
+      next: "Next",
+      hour: "h",
+      lec: "lecture",
+      prac: "practice",
+      aidKicker: "Practical block",
+      aidTitle: "How first aid is given",
+      aidLead: "Choose a situation. The card shows what you see, then the help itself, step by step. This is lab 8: what you do until a doctor arrives.",
+      flow1: "Safety",
+      flow2: "103 / 112",
+      flow3: "Consciousness",
+      flow4: "Breathing",
+      flow5: "Help step",
+      seeLabel: "What you see",
+      howLabel: "How you help",
+      ambulance: "Ambulance",
+      unified: "Single number",
+      checkKicker: "Short check",
+      checkTitle: "Does the subject make sense?",
+      nextQ: "Next",
+      seeResult: "Result",
+      restart: "Try again",
+      question: "Question",
+      correct: "Correct answers",
+      footerDept: "Department of Industrial Safety and Ecology",
+      footerFac: "Mining Faculty · Abylkas Saginov Karaganda Technical University",
+      footerNote: "An introduction based on the 2023 syllabus. The exact measurement procedure is given in class. In a severe case, 103 or 112 decides.",
+      fireTitle: "Which fire, which agent",
+      fireD: "If metal is burning (class D), a special powder is needed. Do not pour water on it.",
+      you: "What you do",
+      why: "Why it matters",
+      principle: "How it works",
+      themeLight: "Light theme",
+      themeDark: "Dark theme"
     }
   };
 
   const TOPICS = [
-    { h: [2, 1], kk: ["Еңбек заңнамасының негізгі ережелері", "Жұмыс беруші мен қызметкердің міндеті, қауіпсіз еңбек құқығы. Ақпараттық жүйеде де адам сол заңның астында отырады."], ru: ["Основные положения трудового законодательства", "Обязанности работодателя и работника, право на безопасный труд. Человек в информационной системе тоже работает по этому закону."] },
-    { h: [2, 1], kk: ["Өндірістік жарақаттану және кәсіптік аурулар", "Жарақат бір сәтте болады. Кәсіптік ауру шу, шаң және химиядан біртіндеп жиналады."], ru: ["Производственный травматизм и профессиональные заболевания", "Травма случается сразу. Профзаболевание копится постепенно: от шума, пыли и химии."] },
-    { h: [2, 1], kk: ["Өндірістік санитария", "Ауа, жарық, шу, шаң және микроклимат. Бұлар денсаулық сақинасына кіреді."], ru: ["Производственная санитария", "Воздух, свет, шум, пыль и микроклимат. Это кольцо «здоровье» на знаке кафедры."] },
-    { h: [2, 1], kk: ["Еңбекті қорғауды басқару. Кәсіби тәуекел", "Кәсіпорында жүйе қалай жұмыс істейді және тәуекелді қалай тауып, қалай азайтады."], ru: ["Управление охраной труда. Профессиональный риск", "Как на предприятии устроена система и как находят риск, затем снижают его."] },
-    { h: [2, 1], kk: ["Еңбек жағдайы бойынша аттестаттау", "Жұмыс орнын тексеріп, зияндылық деңгейін анықтайды."], ru: ["Аттестация по условиям труда", "Рабочее место проверяют и определяют уровень вредности."] },
-    { h: [2, 1], kk: ["Жұмыс уақыты, жеңілдік және өтемақы", "Зиянды және қауіпті жағдайда істеген адамға демалыс, жеңілдік және өтемақы қарастырылады."], ru: ["Рабочее время, льготы и компенсации", "За вредные и опасные условия предусмотрены отдых, льготы и компенсации."] },
-    { h: [2, 1], kk: ["Оқыту, нұсқау беру, білімді тексеру", "Нұсқаулықтың түрі және еңбек қауіпсіздігі нұсқаулығын қалай құрастырады."], ru: ["Обучение, инструктаж, проверка знаний", "Виды инструктажа и то, как составляют инструкцию по охране труда."] },
-    { h: [2, 1], kk: ["Медициналық тексеру және жеке қорғаныс құралы", "Медосмотр кімге міндетті. Каска, көзілдірік, қолғап, маска қай жерде керек."], ru: ["Медосмотры и средства индивидуальной защиты", "Кому обязателен медосмотр. Где нужны каска, очки, перчатки и маска."] },
-    { h: [2, 1], kk: ["Жазатайым оқиғаны тергеу", "Жұмыстағы жарақатты қалай тіркейді және қалай тергейді."], ru: ["Расследование несчастного случая", "Как фиксируют и расследуют травму, связанную с работой."] },
-    { h: [2, 1], kk: ["Бақылау және жауапкершілік", "Талаптың орындалуын кім тексереді және бұзғаны үшін қандай жауапкершілік бар."], ru: ["Контроль и ответственность", "Кто проверяет требования и какая ответственность следует за нарушение."] },
-    { h: [6, 3], kk: ["Сала бойынша қауіпсіздік техникасы", "Нақты жұмыс орны мен процесті қауіпсіз ұйымдастыру. Ақпараттық жүйеде бұл сервер, кабель, электр және адам отыратын орын."], ru: ["Техника безопасности по отраслям", "Безопасная организация конкретного места и процесса. Для информационных систем это сервер, кабели, электричество и место человека."] },
-    { h: [2, 1], kk: ["Объектілердің өрт қауіпсіздігі", "Өрттің алдын алу, дабыл, шығу жолы және сөндіру құралының орны."], ru: ["Пожарная безопасность объектов", "Предупреждение пожара, сигнал, путь выхода и место средства тушения."] },
-    { h: [2, 1], kk: ["Қауіпті өндірістік объектінің өнеркәсіптік қауіпсіздігі", "Апаты адамдарға әсер ететін объектке қойылатын бөлек талап."], ru: ["Промышленная безопасность опасного производственного объекта", "Отдельные требования к объекту, авария на котором затронет людей."] }
+    { h: [2, 1], kk: ["Еңбек заңнамасының негізгі ережелері", "Жұмыс беруші мен қызметкердің міндеті, қауіпсіз еңбек құқығы. Ақпараттық жүйеде де адам сол заңның астында отырады."], ru: ["Основные положения трудового законодательства", "Обязанности работодателя и работника, право на безопасный труд. Человек в информационной системе тоже работает по этому закону."], en: ["Main points of labour law", "Duties of the employer and the worker, and the right to safe work. A person in an information system works under the same law."] },
+    { h: [2, 1], kk: ["Өндірістік жарақаттану және кәсіптік аурулар", "Жарақат бір сәтте болады. Кәсіптік ауру шу, шаң және химиядан біртіндеп жиналады."], ru: ["Производственный травматизм и профессиональные заболевания", "Травма случается сразу. Профзаболевание копится постепенно: от шума, пыли и химии."], en: ["Workplace injuries and occupational diseases", "An injury happens at once. An occupational disease builds up from noise, dust and chemicals."] },
+    { h: [2, 1], kk: ["Өндірістік санитария", "Ауа, жарық, шу, шаң және микроклимат. Бұлар денсаулық сақинасына кіреді."], ru: ["Производственная санитария", "Воздух, свет, шум, пыль и микроклимат. Это кольцо «здоровье» на знаке кафедры."], en: ["Industrial hygiene", "Air, light, noise, dust and microclimate. That is the health ring on the department mark."] },
+    { h: [2, 1], kk: ["Еңбекті қорғауды басқару. Кәсіби тәуекел", "Кәсіпорында жүйе қалай жұмыс істейді және тәуекелді қалай тауып, қалай азайтады."], ru: ["Управление охраной труда. Профессиональный риск", "Как на предприятии устроена система и как находят риск, затем снижают его."], en: ["Managing occupational safety. Professional risk", "How the system works at a company, and how risk is found and then reduced."] },
+    { h: [2, 1], kk: ["Еңбек жағдайы бойынша аттестаттау", "Жұмыс орнын тексеріп, зияндылық деңгейін анықтайды."], ru: ["Аттестация по условиям труда", "Рабочее место проверяют и определяют уровень вредности."], en: ["Workplace assessment", "The workplace is checked and the level of harm is determined."] },
+    { h: [2, 1], kk: ["Жұмыс уақыты, жеңілдік және өтемақы", "Зиянды және қауіпті жағдайда істеген адамға демалыс, жеңілдік және өтемақы қарастырылады."], ru: ["Рабочее время, льготы и компенсации", "За вредные и опасные условия предусмотрены отдых, льготы и компенсации."], en: ["Working time, benefits and compensation", "Harmful and dangerous conditions come with rest, benefits and compensation."] },
+    { h: [2, 1], kk: ["Оқыту, нұсқау беру, білімді тексеру", "Нұсқаулықтың түрі және еңбек қауіпсіздігі нұсқаулығын қалай құрастырады."], ru: ["Обучение, инструктаж, проверка знаний", "Виды инструктажа и то, как составляют инструкцию по охране труда."], en: ["Training, briefing and knowledge checks", "Types of briefing, and how an occupational safety instruction is written."] },
+    { h: [2, 1], kk: ["Медициналық тексеру және жеке қорғаныс құралы", "Медосмотр кімге міндетті. Каска, көзілдірік, қолғап, маска қай жерде керек."], ru: ["Медосмотры и средства индивидуальной защиты", "Кому обязателен медосмотр. Где нужны каска, очки, перчатки и маска."], en: ["Medical checks and personal protective equipment", "Who must have a medical check. Where a helmet, glasses, gloves and a mask are needed."] },
+    { h: [2, 1], kk: ["Жазатайым оқиғаны тергеу", "Жұмыстағы жарақатты қалай тіркейді және қалай тергейді."], ru: ["Расследование несчастного случая", "Как фиксируют и расследуют травму, связанную с работой."], en: ["Investigating an accident", "How a work injury is recorded and investigated."] },
+    { h: [2, 1], kk: ["Бақылау және жауапкершілік", "Талаптың орындалуын кім тексереді және бұзғаны үшін қандай жауапкершілік бар."], ru: ["Контроль и ответственность", "Кто проверяет требования и какая ответственность следует за нарушение."], en: ["Control and responsibility", "Who checks the requirements, and what responsibility follows a breach."] },
+    { h: [6, 3], kk: ["Сала бойынша қауіпсіздік техникасы", "Нақты жұмыс орны мен процесті қауіпсіз ұйымдастыру. Ақпараттық жүйеде бұл сервер, кабель, электр және адам отыратын орын."], ru: ["Техника безопасности по отраслям", "Безопасная организация конкретного места и процесса. Для информационных систем это сервер, кабели, электричество и место человека."], en: ["Safety practice by field", "How to organise a specific place and process safely. In an information system that means the server, cables, electricity and the person’s seat."] },
+    { h: [2, 1], kk: ["Объектілердің өрт қауіпсіздігі", "Өрттің алдын алу, дабыл, шығу жолы және сөндіру құралының орны."], ru: ["Пожарная безопасность объектов", "Предупреждение пожара, сигнал, путь выхода и место средства тушения."], en: ["Fire safety of buildings", "Preventing a fire, the alarm, the way out, and where the extinguisher is."] },
+    { h: [2, 1], kk: ["Қауіпті өндірістік объектінің өнеркәсіптік қауіпсіздігі", "Апаты адамдарға әсер ететін объектке қойылатын бөлек талап."], ru: ["Промышленная безопасность опасного производственного объекта", "Отдельные требования к объекту, авария на котором затронет людей."], en: ["Industrial safety of a hazardous facility", "Separate requirements for a site whose accident would affect people."] }
   ];
 
   const LABS = [
     {
       hours: 2,
       kk: {
-        title: "Метеожағдай",
+        title: "Микроклимат",
         manual: "Әдістеме №1",
-        full: "Өндірістік ғимараттардағы метеожағдайларды анықтау",
+        full: "Өндірістік ғимараттардағы микроклиматты анықтау",
         text: "Бөлмедегі температураны, ылғалдылықты, атмосфералық қысымды және ауа қозғалысының жылдамдығын өлшеп, санитарлық нормамен салыстырасыз.",
         you: "Өлшеу MS-6300 көпфункционалды құралымен жасалады. Датчик зерттелетін ортада 20 минут тұрады.",
         why: "Микроклимат көңіл-күйге, жұмыс қабілетіне және дене температурасына әсер етеді. Дене температурасы терморегуляция арқылы шамамен 36,5°C деңгейінде қалады."
       },
       ru: {
-        title: "Метеоусловия",
+        title: "Микроклимат",
         manual: "Методичка №1",
-        full: "Определение метеоусловий в производственных зданиях",
+        full: "Определение микроклимата в производственных зданиях",
         text: "Измеряете температуру, влажность, атмосферное давление и скорость движения воздуха, затем сравниваете с санитарной нормой.",
         you: "Измерение делают прибором MS-6300. Датчик находится в исследуемой среде 20 минут.",
         why: "Микроклимат влияет на самочувствие, работоспособность и температуру тела. За счёт терморегуляции она держится около 36,5°C."
+      },
+      en: {
+        title: "Microclimate",
+        manual: "Lab guide 1",
+        full: "Measuring the microclimate in production buildings",
+        text: "You measure temperature, humidity, atmospheric pressure and air speed, then compare them with the sanitary norm.",
+        you: "The measurement is made with an MS-6300. The sensor stays in the room for 20 minutes.",
+        why: "Microclimate affects how a person feels, how well they work, and body temperature. Thermoregulation keeps it near 36.5°C."
       }
     },
     {
@@ -227,6 +330,14 @@
         text: "Различаете естественный, искусственный и совмещённый свет и измеряете освещённость люксметром ТКА-ЛЮКС.",
         you: "Закрываете фотометрическую головку и вычитаете тёмный сигнал: E = Eизм − Eтс.",
         why: "Мало света утомляет и увеличивает травмы. Слишком яркий свет слепит и сбивает движение."
+      },
+      en: {
+        title: "Lighting",
+        manual: "Lab guide 2",
+        full: "Measuring artificial and natural lighting at workplaces",
+        text: "You tell natural, artificial and combined light apart and measure illuminance with a TKA-LUX meter.",
+        you: "You cover the photometric head and subtract the dark signal: E = Emeas − Edark.",
+        why: "Too little light tires people and increases injuries. Light that is too bright glares and throws off movement."
       }
     },
     {
@@ -246,6 +357,14 @@
         text: "Различаете вид, крупность и вред пыли и измеряете массовую концентрацию в рабочей зоне анализатором ГАНК-4.",
         you: "Прибор сам считает концентрацию по скорости потемнения ленты в химической кассете. Записываете среднее двух серий.",
         why: "Долгая пыль ведёт к пневмокониозу: силикоз, сидероз, антракоз, асбестоз. Измерение учит замечать пыль, а не производить её."
+      },
+      en: {
+        title: "Air dust",
+        manual: "Lab guide 3",
+        full: "Studying dust in the air",
+        text: "You tell the kind, size and harm of dust apart and measure mass concentration in the work zone with a GANK-4.",
+        you: "The instrument calculates concentration from how fast the tape in the chemical cassette darkens. You record the average of two series.",
+        why: "Long exposure leads to pneumoconiosis: silicosis, siderosis, anthracosis, asbestosis. The measurement teaches you to notice dust, not to make it."
       }
     },
     {
@@ -265,6 +384,14 @@
         text: "Измеряете массовую концентрацию вредного газа в рабочей зоне прибором ГАНК-4 и сравниваете с предельно допустимой.",
         you: "Порядок измерения тот же, что в лабораторной по пыли. У прибора два режима: среднее за 15, 20 или 30 минут и непрерывный с сигналом предела.",
         why: "Острое отравление бывает от сразу большой дозы. Хроническое копится годами от малых количеств. Измерение не учит получать вещество."
+      },
+      en: {
+        title: "Harmful substances",
+        manual: "Lab guide 5",
+        full: "Measuring the concentration of harmful substances",
+        text: "You measure the mass concentration of a harmful gas in the work zone with a GANK-4 and compare it with the limit.",
+        you: "The measurement order is the same as in the dust lab. The instrument has two modes: an average over 15, 20 or 30 minutes, and a continuous mode with an alarm at the limit.",
+        why: "Acute poisoning comes from a large amount at once. Chronic poisoning builds over years from small amounts. The measurement does not teach you to obtain the substance."
       }
     },
     {
@@ -284,6 +411,14 @@
         text: "Отличаете механический шум от аэродинамического и снимаете уровень шумомером Digital Sound Level Meter.",
         you: "Ставите прибор в помещение и включаете. Через 2–3 секунды уровень идёт в реальном времени. MAX удерживает наибольшее значение.",
         why: "Долгий шум снижает слух и зрение, поднимает давление и увеличивает ошибки. Защита начинается с источника, пути и самого человека."
+      },
+      en: {
+        title: "Noise",
+        manual: "Lab guide 7",
+        full: "Studying noise and vibration",
+        text: "You tell mechanical noise from aerodynamic noise and take the level with a Digital Sound Level Meter.",
+        you: "You place the instrument in the room and switch it on. After 2–3 seconds the level runs in real time. MAX holds the highest value.",
+        why: "Long noise lowers hearing and vision, raises blood pressure and increases mistakes. Protection starts with the source, the path and the person."
       }
     },
     {
@@ -303,6 +438,14 @@
         text: "Отличаете общую вибрацию от локальной и измеряете её анализатором «АССИСТЕНТ». Это одна лабораторная работа вместе с шумом.",
         you: "В главном меню включаете пункт ВИБРАЦИЯ. По умолчанию локальная вибрация усредняется 1 с, общая — 10 с.",
         why: "Долгая вибрация ведёт к вибрационной болезни. Защита — снизить источник, изолировать, надеть перчатки и ограничить смену."
+      },
+      en: {
+        title: "Vibration",
+        manual: "Lab guide 7",
+        full: "Studying noise and vibration",
+        text: "You tell whole-body vibration from hand vibration and measure it with an ASSISTENT analyser. This is one lab together with noise.",
+        you: "In the main menu you open VIBRATION. By default hand vibration is averaged over 1 s, whole-body vibration over 10 s.",
+        why: "Long vibration leads to vibration disease. Protection means lowering the source, isolating it, wearing gloves and limiting the shift."
       }
     },
     {
@@ -322,6 +465,14 @@
         text: "Смотрите преднамеренное соединение с землёй металлических частей, которые могут оказаться под напряжением, и измеритель АКИП-8603.",
         you: "Прибор измеряет сопротивление изоляции и постоянное или переменное напряжение. Если в цепи больше 30 В, он сам блокирует испытание.",
         why: "Если изоляция повреждена, корпус оказывается под напряжением. Заземление снижает напряжение на человеке."
+      },
+      en: {
+        title: "Protective earthing",
+        manual: "Lab guide 6",
+        full: "Checking protective earthing",
+        text: "You look at the deliberate connection to earth of metal parts that can become live, and at the AKIP-8603 meter.",
+        you: "The instrument measures insulation resistance and DC or AC voltage. If the circuit is above 30 V, it blocks the test itself.",
+        why: "If the insulation is damaged, the case becomes live. Earthing lowers the voltage on the person."
       }
     },
     {
@@ -341,6 +492,14 @@
         text: "Различаете категорию помещения, огнетушащее вещество и тип ручного огнетушителя. Большой пожар сами не тушите: 101 и 112.",
         you: "У порошкового ОП выдёргиваете чеку и направляете струю примерно с 4 метров, под углом около 30°.",
         why: "Вода не годится для оборудования под напряжением, веществ, которые с ней реагируют, и легковоспламеняющихся жидкостей. Порошок не годится для пожара металлов класса D."
+      },
+      en: {
+        title: "Firefighting",
+        manual: "Lab guide 4",
+        full: "Methods and means of firefighting",
+        text: "You tell a room category, an extinguishing agent and a hand extinguisher apart. You do not fight a large fire yourself: call 101 and 112.",
+        you: "On a powder OP you pull the pin and aim the jet from about 4 metres, at about 30°.",
+        why: "Water is not for live equipment, substances that react with it, or flammable liquids. Powder is not for a class D metal fire."
       }
     }
   ];
@@ -348,19 +507,23 @@
   const FIRE = {
     A: {
       kk: "Қатты зат: ағаш, қағаз, мата. Су және көбік жарайды.",
-      ru: "Твёрдые материалы: дерево, бумага, ткань. Подходят вода и пена."
+      ru: "Твёрдые материалы: дерево, бумага, ткань. Подходят вода и пена.",
+      en: "Solids: wood, paper, cloth. Water and foam are suitable."
     },
     B: {
       kk: "Жанғыш сұйық. Көбік немесе ұнтақ. Су ағыны жалынды жайылтып жіберуі мүмкін.",
-      ru: "Горючая жидкость. Пена или порошок. Струя воды может разнести пламя."
+      ru: "Горючая жидкость. Пена или порошок. Струя воды может разнести пламя.",
+      en: "A flammable liquid. Foam or powder. A jet of water can spread the flame."
     },
     C: {
       kk: "Газ. Ұнтақты сөндіргіш. Мүмкін болса, алдымен газ көзін жабады.",
-      ru: "Газ. Порошковый огнетушитель. Если это безопасно, сначала перекрывают источник газа."
+      ru: "Газ. Порошковый огнетушитель. Если это безопасно, сначала перекрывают источник газа.",
+      en: "Gas. A powder extinguisher. If it is safe, shut off the gas first."
     },
     E: {
       kk: "Ток астындағы жабдық. Ұнтақ немесе көмірқышқыл газы. Су ағынын бағыттамаңыз.",
-      ru: "Оборудование под напряжением. Порошок или углекислый газ. Струю воды не направляйте."
+      ru: "Оборудование под напряжением. Порошок или углекислый газ. Струю воды не направляйте.",
+      en: "Equipment that is live. Powder or carbon dioxide. Do not aim a jet of water."
     }
   };
 
@@ -387,6 +550,17 @@
           "Если ответа нет, до 10 секунд смотрите, поднимается ли грудь. Есть нормальное дыхание — уложите на бок. Дыхания нет или оно редкое и шумное — начинайте нажатия на грудь.",
           "Дополнительные признаки: цвет кожи и губ, пульс на сонной артерии (пальцы рядом с гортанью, сбоку шеи) и зрачки. Человека без сознания водой не обливайте и нашатырь нюхать не давайте."
         ]
+      },
+      en: {
+        title: "The first minute",
+        see: "A person has fallen, does not answer, or is injured. It is not clear at once what happened.",
+        steps: [
+          "Look around. If there is electricity, fire, gas or moving traffic, stop that danger first. Do not approach a fallen power line.",
+          "Call 103 or 112. Give the address, what happened and how many people are hurt. Stay on the line until the dispatcher ends it.",
+          "Call the person by name and shake the shoulder gently. If they answer, do not move them and ask what hurts.",
+          "If there is no answer, watch for up to 10 seconds whether the chest rises. Normal breathing: lay them on their side. No breathing, or rare noisy breathing: start chest compressions.",
+          "Also look at skin and lip colour, the pulse on the carotid artery (fingers beside the voice box, on the side of the neck) and the pupils. Do not splash water on an unconscious person or make them smell ammonia."
+        ]
       }
     },
     {
@@ -410,6 +584,17 @@
           "Согните дальнее колено и одним движением поверните человека к себе.",
           "Слегка запрокиньте голову и оставьте рот приоткрытым. Это устойчивое боковое положение: язык не закрывает дыхательные пути.",
           "Вызовите 103 и следите за дыханием. Воду и еду не давайте."
+        ]
+      },
+      en: {
+        title: "Unconscious, breathing",
+        see: "The person does not answer, but the chest rises steadily.",
+        steps: [
+          "Kneel beside them. Place the near arm at a right angle to the body.",
+          "Put the back of the far hand against the cheek that faces you.",
+          "Bend the far knee and roll the person toward you in one movement.",
+          "Tilt the head slightly and leave the mouth open. This is the recovery position: the tongue does not block the airway.",
+          "Call 103 and watch the breathing. Do not give water or food."
         ]
       }
     },
@@ -437,6 +622,18 @@
           "Если рядом есть дефибриллятор, включите его и следуйте голосу. Не останавливайтесь, пока не приедет скорая или человек не начнёт нормально дышать.",
           "На занятии эти шаги проверяют на манекене CPRLilly PRO+: глубина и частота нажатий, полное расправление груди, положение рук, запрокидывание головы и объём вдоха."
         ]
+      },
+      en: {
+        title: "Not breathing",
+        see: "The person does not answer. The chest does not move, or the breaths are rare and noisy. That is not normal breathing.",
+        steps: [
+          "Lay the person on their back on a firm flat surface. If other people are there, one of them should call 103.",
+          "Place the heel of one hand on the centre of the chest, on the lower half of the breastbone. Put the other hand on top and lace the fingers. Keep the arms straight.",
+          "For an adult, press 100–120 times a minute, about 5 cm deep. Let the chest rise fully after each press.",
+          "If you already learned this on the course: 30 presses, then 2 breaths. If you are not sure of the breaths, do not stop the presses.",
+          "If a defibrillator is nearby, switch it on and follow the voice. Do not stop until the ambulance arrives or the person starts breathing normally.",
+          "In class these steps are checked on a CPRLilly PRO+ manikin: depth and rate, full chest recoil, hand position, head tilt and breath volume."
+        ]
       }
     },
     {
@@ -463,6 +660,18 @@
           "Если жгута нет, не отпускайте давление до врача.",
           "Артериальная кровь ярко-красная и бьёт толчками. Венозная тёмно-вишнёвая и течёт ровно. Капиллярная медленно сочится по поверхности раны: её тоже останавливает прямое давление."
         ]
+      },
+      en: {
+        title: "Bleeding",
+        see: "Blood from a wound does not stop, or clothing soaks through quickly.",
+        steps: [
+          "Wear gloves if you have them. Cover the wound with clean cloth and press with the palm, straight and firmly.",
+          "If the cloth soaks through, do not remove it. Add a new one on top and keep pressing.",
+          "If you do not suspect a fracture, raise the injured arm or leg above the heart.",
+          "Use a proper tourniquet only if bleeding from an arm or leg is life-threatening and pressure does not stop it: above the wound, not on a joint. Write down the time. Do not take it off yourself.",
+          "If there is no tourniquet, do not let go of the pressure until a doctor arrives.",
+          "Arterial blood is bright red and pulses. Venous blood is dark cherry and flows steadily. Capillary blood oozes slowly over the wound: direct pressure stops that too."
+        ]
       }
     },
     {
@@ -486,6 +695,17 @@
           "При закрытом переломе одежду не снимайте. Шину или доску кладите поверх одежды так, чтобы захватить оба сустава.",
           "Привяжите шину тканью плотно, но так, чтобы цвет пальцев не менялся. Вызовите 103.",
           "При вывихе и ушибе сустав тоже не вправляйте. Оставьте место в покое, приложите холодное полотенце и ждите врача."
+        ]
+      },
+      en: {
+        title: "Fracture",
+        see: "The person has strong pain at a bone and cannot move it. An open fracture has a wound and blood. A closed one has intact skin and local swelling.",
+        steps: [
+          "Do not move the person. Do not push a broken bone back into place and do not pull a joint.",
+          "For an open fracture, stop the bleeding with direct pressure first and put on a clean dressing.",
+          "For a closed fracture, do not remove clothing. Put a splint or a board over the clothes so that it covers both joints.",
+          "Tie the splint with cloth, firmly, but not so tight that the fingers change colour. Call 103.",
+          "For a dislocation or a bruise, do not pull the joint either. Keep the place still, apply a cold towel and wait for a doctor."
         ]
       }
     },
@@ -513,6 +733,18 @@
           "Ожог лица, дыхательных путей, большой площади, химический ожог или пострадал ребёнок — звоните 103. Химию долго смывайте водой, другим веществом не нейтрализуйте.",
           "Степени: 1 — краснота и отёк, 2 — пузыри, 3 — омертвение кожи, 4 — мышцы, сухожилия и кость. Одежду не рвите, режьте ножницами. На прилипший участок положите чистую повязку. Снегом и льдом не закрывайте."
         ]
+      },
+      en: {
+        title: "Burn",
+        see: "The skin is red, blistered, or clothing has burned and stuck.",
+        steps: [
+          "Hold the burn under cool running water for about 20 minutes.",
+          "Do not pull off clothing stuck to the skin. Remove only the loose part.",
+          "Do not open blisters. Oil, sour cream, toothpaste and ice hold the heat in or damage the skin.",
+          "After cooling, cover with clean damp gauze.",
+          "A burn of the face, the airway, a large area, a chemical burn, or a burned child: call 103. Rinse a chemical off with water for a long time. Do not neutralise it with another substance.",
+          "Degrees: 1 — redness and swelling, 2 — blisters, 3 — dead skin, 4 — muscle, tendon and bone. Do not tear clothing, cut it with scissors. Put a clean dressing over a stuck patch. Do not cover with snow or ice."
+        ]
       }
     },
     {
@@ -536,6 +768,17 @@
           "Подходите и проверяйте дыхание, только когда человек уже не касается источника.",
           "Если дыхания нет, начинайте нажатия на грудь. Ожог охладите прохладной водой.",
           "Даже если человеку стало лучше, вызовите 103: ритм сердца может нарушиться позже."
+        ]
+      },
+      en: {
+        title: "Electric shock",
+        see: "The person is holding a wire or a device, or has fallen after a shock.",
+        steps: [
+          "Do not touch the person or the wire with a bare hand. Do not approach a fallen line on the ground. Call 103 and 101.",
+          "Switch off household current at the breaker only if that is safe.",
+          "Approach and check breathing only when the person is no longer touching the source.",
+          "If there is no breathing, start chest compressions. Cool a burn with cool water.",
+          "Even if the person feels better, call 103: the heart rhythm can fail later."
         ]
       }
     },
@@ -561,6 +804,17 @@
           "Если предмет не вышел, чередуйте 5 ударов и 5 нажатий. Беременной и если не можете обхватить талию давите не на живот, а на нижнюю часть груди.",
           "Потерял сознание — звоните 103 и начинайте нажатия на грудь. Пальцем в рот вслепую ничего не ищите. Грудным детям нажатие на живот не делают: сразу звоните 103."
         ]
+      },
+      en: {
+        title: "Choking",
+        see: "The person cannot cough or speak, holds their throat, or the lips turn blue.",
+        steps: [
+          "If they can cough and speak, let them cough. Do not hit the back.",
+          "If they cannot speak, lean them slightly forward and give 5 blows with the heel of the hand between the shoulder blades.",
+          "Then 5 abdominal thrusts. The fist sits between the navel and the breastbone. The movement is inward and upward.",
+          "If the object does not come out, alternate 5 blows and 5 thrusts. For a pregnant person, or if you cannot reach around the waist, press the lower chest, not the abdomen.",
+          "If they lose consciousness, call 103 and start chest compressions. Do not sweep a finger blindly in the mouth. Do not use abdominal thrusts on infants: call 103 at once."
+        ]
       }
     }
   ];
@@ -569,34 +823,39 @@
     {
       answer: 1,
       kk: { q: "Кафедра белгісіндегі үш сақина нені білдіреді?", options: ["Тек өрт, ток және шу", "Денсаулық, қоршаған орта, қауіпсіздік", "Үш факультет"], explain: "Көк — денсаулық, жасыл — қоршаған орта, сарғыш — қауіпсіздік. Ортада Тау-кен факультеті." },
-      ru: { q: "Что означают три кольца на знаке кафедры?", options: ["Только пожар, ток и шум", "Здоровье, окружающая среда, безопасность", "Три факультета"], explain: "Синее — здоровье, зелёное — среда, оранжевое — безопасность. В центре горный факультет." }
+      ru: { q: "Что означают три кольца на знаке кафедры?", options: ["Только пожар, ток и шум", "Здоровье, окружающая среда, безопасность", "Три факультета"], explain: "Синее — здоровье, зелёное — среда, оранжевое — безопасность. В центре горный факультет." },
+      en: { q: "What do the three rings on the department mark mean?", options: ["Only fire, electricity and noise", "Health, environment, safety", "Three faculties"], explain: "Blue is health, green is the environment, orange is safety. The centre is the Mining Faculty." }
     },
     {
       answer: 0,
-      kk: { q: "Метеожағдай зертханасында нені өлшейді?", options: ["Температура, ылғалдылық, ауа жылдамдығы", "Тек шу деңгейі", "Тек жерге қосу кедергісі"], explain: "Үш шама бірге микроклиматты көрсетеді." },
-      ru: { q: "Что измеряют в лабораторной по метеоусловиям?", options: ["Температуру, влажность, скорость воздуха", "Только уровень шума", "Только сопротивление заземления"], explain: "Три величины вместе показывают микроклимат." }
+      kk: { q: "Микроклимат зертханасында нені өлшейді?", options: ["Температура, ылғалдылық, ауа жылдамдығы", "Тек шу деңгейі", "Тек жерге қосу кедергісі"], explain: "Үш шама бірге микроклиматты көрсетеді." },
+      ru: { q: "Что измеряют в лабораторной по микроклимату?", options: ["Температуру, влажность, скорость воздуха", "Только уровень шума", "Только сопротивление заземления"], explain: "Три величины вместе показывают микроклимат." },
+      en: { q: "What do you measure in the microclimate lab?", options: ["Temperature, humidity, air speed", "Only the noise level", "Only earthing resistance"], explain: "The three values together show the microclimate." }
     },
     {
       answer: 1,
       kk: { q: "Ток астындағы жабдық жанса, қай құрал жарайды?", options: ["Су ағыны", "Ұнтақ немесе көмірқышқыл газы", "Май"], explain: "Су ағыны токпен қосылып, қауіпті үлкейтеді." },
-      ru: { q: "Чем тушить оборудование под напряжением?", options: ["Струёй воды", "Порошком или углекислым газом", "Маслом"], explain: "Струя воды вместе с током увеличивает опасность." }
+      ru: { q: "Чем тушить оборудование под напряжением?", options: ["Струёй воды", "Порошком или углекислым газом", "Маслом"], explain: "Струя воды вместе с током увеличивает опасность." },
+      en: { q: "What do you use on live equipment that is burning?", options: ["A jet of water", "Powder or carbon dioxide", "Oil"], explain: "A jet of water together with current makes the danger worse." }
     },
     {
       answer: 2,
       kk: { q: "Адам жауап бермейді, бірақ тынысы қалыпты. Не істейсіз?", options: ["Су бересіз", "Орнында қалдырасыз", "Бүйіріне жатқызып, 103-ті шақырасыз"], explain: "Тұрақты бүйір қалпы тыныс жолын ашық ұстайды." },
-      ru: { q: "Человек не отвечает, но дышит нормально. Что делать?", options: ["Дать воду", "Оставить как есть", "Уложить на бок и вызвать 103"], explain: "Устойчивое боковое положение держит дыхательные пути открытыми." }
+      ru: { q: "Человек не отвечает, но дышит нормально. Что делать?", options: ["Дать воду", "Оставить как есть", "Уложить на бок и вызвать 103"], explain: "Устойчивое боковое положение держит дыхательные пути открытыми." },
+      en: { q: "A person does not answer, but is breathing normally. What do you do?", options: ["Give water", "Leave them as they are", "Lay them on their side and call 103"], explain: "The recovery position keeps the airway open." }
     }
   ];
 
   const RESULT = {
     kk: ["Қадамдарды қайта ашыңыз: белгі, зертхана және алғашқы көмек.", "Негізгі бағыт дұрыс. Бір зертхананы және көмек қадамын қайта оқыңыз.", "Пәннің тірегін, өлшемді және алғашқы әрекетті ажыраттыңыз."],
-    ru: ["Откройте ещё раз знак, лабораторные и первую помощь.", "Основное направление верное. Перечитайте одну лабораторную и шаг помощи.", "Вы отличили опору предмета, измерение и первое действие."]
+    ru: ["Откройте ещё раз знак, лабораторные и первую помощь.", "Основное направление верное. Перечитайте одну лабораторную и шаг помощи.", "Вы отличили опору предмета, измерение и первое действие."],
+    en: ["Open the mark, the labs and first aid again.", "The main direction is right. Reread one lab and one help step.", "You told the core of the subject, a measurement and the first action apart."]
   };
 
   let lang = "kk";
   try {
     const saved = localStorage.getItem("eq-lang");
-    if (saved === "ru" || saved === "kk") lang = saved;
+    if (saved === "ru" || saved === "kk" || saved === "en") lang = saved;
   } catch (error) { /* keep kk */ }
 
   let topicIndex = 0;
@@ -631,6 +890,21 @@
     document.querySelectorAll("[data-set-lang]").forEach((btn) => {
       btn.classList.toggle("is-active", btn.dataset.setLang === lang);
     });
+    applyTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.dataset.theme = theme;
+    try { localStorage.setItem("eq-theme", theme); } catch (error) { /* ignore */ }
+    const button = document.getElementById("theme-toggle");
+    if (button) {
+      const light = theme === "light";
+      button.textContent = light ? "☾" : "☀";
+      button.setAttribute("aria-pressed", light ? "true" : "false");
+      button.setAttribute("aria-label", light ? t("themeDark") : t("themeLight"));
+    }
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = theme === "light" ? "#f7f4ee" : "#08120f";
   }
 
   function renderTopics() {
@@ -640,126 +914,13 @@
       return `<button type="button" class="topic${index === topicIndex ? " is-active" : ""}" data-topic="${index}" aria-pressed="${index === topicIndex}">
         <span class="n">${String(index + 1).padStart(2, "0")}</span>
         <span>${pack[0]}</span>
-        <small>${topic.h[0]}+${topic.h[1]}</small>
       </button>`;
     }).join("");
     const topic = TOPICS[topicIndex];
     document.getElementById("topic-detail").innerHTML = `
       <p class="kicker">${String(topicIndex + 1).padStart(2, "0")}</p>
       <h3>${topic[lang][0]}</h3>
-      <div class="hours"><span>${topic.h[0]} ${t("lec")}</span><span>${topic.h[1]} ${t("prac")}</span></div>
       <p>${topic[lang][1]}</p>`;
-  }
-
-  const METEO_ROWS = [
-    ["I жеңіл", "20–23", "≤0,2", "22–25", "≤0,2"],
-    ["IIа орташа", "18–20", "≤0,2", "21–23", "≤0,2"],
-    ["IIб орташа", "17–19", "≤0,3", "20–22", "≤0,4"],
-    ["III ауыр", "16–18", "≤0,3", "18–21", "≤0,5"]
-  ];
-
-  function renderMeteo() {
-    const kk = lang === "kk";
-    const cold = kk ? "Суық және өтпелі кезең, сыртқы ауа <+10°C" : "Холодный и переходный период, наружный воздух <+10°C";
-    const warm = kk ? "Жылы кезең, сыртқы ауа ≥+10°C" : "Тёплый период, наружный воздух ≥+10°C";
-    const rh = kk ? "Салыстырмалы ылғалдылық барлық қатарда 40–60%." : "Относительная влажность во всех строках 40–60%.";
-    const rows = METEO_ROWS.map((row) => `<tr><th scope="row">${row[0]}</th><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td>${row[4]}</td></tr>`).join("");
-    const goal = kk
-      ? "Температура, ылғалдылық, атмосфералық қысым және ауа жылдамдығын өлшеу тәсілін, метеофактордың сипатын және оның адам ағзасына әсерін білу."
-      : "Освоить способ измерения температуры, влажности, атмосферного давления и скорости воздуха, характеристику метеофакторов и их влияние на организм.";
-    const plan = kk
-      ? ["Метеожағдай параметрлерімен танысу.", "Қолайлы санитарлық нормаларды зерттеу.", "Өлшейтін құралмен танысу."]
-      : ["Познакомиться с параметрами метеоусловий.", "Изучить санитарные нормы комфортного микроклимата.", "Познакомиться с измерительным прибором."];
-    return `
-      <div class="lab-block">
-        <h4>${kk ? "Мақсаты" : "Цель"}</h4>
-        <p>${goal}</p>
-        <h4>${kk ? "Жоспар" : "План"}</h4>
-        <ol class="tasks">${plan.map((item) => `<li>${item}</li>`).join("")}</ol>
-        <h4>${kk ? "Микроклимат деген не" : "Что такое микроклимат"}</h4>
-        <p>${kk
-          ? "Өндірістік бөлмедегі ауаның физикалық күйі. Оны төрт шама анықтайды: температура, ылғалдылық, атмосфералық қысым және ауа қозғалысының жылдамдығы."
-          : "Физическое состояние воздуха в производственном помещении. Его задают четыре величины: температура, влажность, атмосферное давление и скорость движения воздуха."}</p>
-        <h4>${kk ? "Жұмыс ауырлығы" : "Тяжесть работы"}</h4>
-        <ul class="tasks">
-          <li>I — ${kk ? "жеңіл" : "лёгкая"}, &lt;172 ${kk ? "Дж/с" : "Дж/с"}</li>
-          <li>IIа — ${kk ? "орташа ауыр" : "средней тяжести"}, 172–232 Дж/с</li>
-          <li>IIб — ${kk ? "орташа ауыр" : "средней тяжести"}, 232–293 Дж/с</li>
-          <li>III — ${kk ? "ауыр" : "тяжёлая"}, &gt;293 Дж/с</li>
-        </ul>
-        <p>${kk
-          ? "Жылу шығуы жұмыс ауырлығына байланысты. Сыртқа жылу беру терморегуляция деп аталады, ол өздігінен жүреді."
-          : "Выделение тепла зависит от тяжести работы. Отдача тепла наружу называется терморегуляцией и идёт сама, без сознательного усилия."}</p>
-        <h4>${kk ? "Жылу қалай кетеді" : "Как уходит тепло"}</h4>
-        <ul class="tasks">
-          <li>${kk ? "Жылу сәулесі, радиация" : "Тепловое излучение, радиация"} — 45%</li>
-          <li>${kk ? "Конвекция, ауа арқылы" : "Конвекция, через воздух"} — 30%</li>
-          <li>${kk ? "Тердің булануы" : "Испарение пота"} — 25%</li>
-        </ul>
-        <p>${kk
-          ? "Ауа +30°C-тан жоғары болса, сәулемен жылу беру тоқтайды. Ауа қозғалмаса, конвекция да тоқтайды. Сонда жылу тек тердің булануымен кетеді. Теріге жақын 4–8 мм ауа қабаты жылу өткізумен қызады."
-          : "Если воздух выше +30°C, отдача излучением прекращается. Если воздух неподвижен, прекращается и конвекция. Тогда тепло уходит только испарением пота. Слой воздуха 4–8 мм у кожи нагревается теплопроводностью."}</p>
-        <h4>${kk ? "Әр параметр не істейді" : "Что делает каждый параметр"}</h4>
-        <p><b>${kk ? "Температура." : "Температура."}</b> ${kk
-          ? "Ұзақ ыстық мол терлеуге, жүрек соғысының жиілеуіне, қан қысымының көтерілуіне, бас ауруына және естен тануға әкелуі мүмкін. Суық денені тоңдырып, суық тиюге және үсікке әкелуі мүмкін."
-          : "Долгая жара может дать обильный пот, частое сердцебиение, подъём давления, головную боль и обморок. Холод переохлаждает тело и может привести к простуде и обморожению."}</p>
-        <p><b>${kk ? "Ылғалдылық." : "Влажность."}</b> ${kk
-          ? "Абсолюттік — 1 м³ ауадағы су буы. Салыстырмалы — қаныққан буға қатынасы, %. Шық нүктесі — бу қанығатын температура. Меншікті — 1 кг ауадағы бу массасы. Ыстықта жоғары ылғалдылық терморегуляцияны бұзады, суықта денені тезірек тоңдырады. Тым құрғақ ауа тыныс жолын кептіреді."
-          : "Абсолютная — пар в 1 м³ воздуха. Относительная — отношение к насыщенному пару, %. Точка росы — температура, при которой пар насыщается. Удельная — масса пара в 1 кг воздуха. В жару высокая влажность ломает терморегуляцию, в холод быстрее охлаждает. Слишком сухой воздух сушит дыхательные пути."}</p>
-        <p><b>${kk ? "Қысым." : "Давление."}</b> ${kk
-          ? "Ауаның жер бетіне түсіретін салмағы. Көтерілген қысым бас ауруын, беттің қызаруын, құлақтағы шуды, жүрек ауырсынуын, тахикардияны, көз алдында жарқырауды және тез шаршауды беруі мүмкін."
-          : "Вес воздуха на поверхность земли. Рост давления может дать головную боль, покраснение лица, шум в ушах, боль в сердце, тахикардию, мелькание перед глазами и быструю усталость."}</p>
-        <p><b>${kk ? "Ауа жылдамдығы." : "Скорость воздуха."}</b> ${kk
-          ? "Белгілі уақыттағы жол. Жайлы қозғалыс 0,1–0,3 м/с шамасында: одан жоғары өтпе жел береді. Ыстықта қозғалыс жылу беруді үдетеді, суықта суытуды күшейтеді. Ыстықта ауа мүлде қозғалмаса, жылу беру тоқтап, дене қызады."
-          : "Путь за известное время. Комфортное движение около 0,1–0,3 м/с: выше появляется сквозняк. В жару движение ускоряет отдачу тепла, в холод усиливает охлаждение. Если в жару воздух совсем не движется, отдача тепла останавливается и тело перегревается."}</p>
-        <h4>${kk ? "Санитарлық норма" : "Санитарная норма"}</h4>
-        <p>${rh}</p>
-        <div class="norms-wrap">
-          <table class="norms">
-            <thead>
-              <tr>
-                <th scope="col">${kk ? "Санат" : "Категория"}</th>
-                <th scope="col" colspan="2">${cold}</th>
-                <th scope="col" colspan="2">${warm}</th>
-              </tr>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">t, °C</th>
-                <th scope="col">υ, ${kk ? "м/с" : "м/с"}</th>
-                <th scope="col">t, °C</th>
-                <th scope="col">υ, ${kk ? "м/с" : "м/с"}</th>
-              </tr>
-            </thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
-        <h4>MS-6300</h4>
-        <p>${kk
-          ? "Сандық көпфункционалды өлшегіш: салыстырмалы ылғалдылық, температура, атмосфералық қысым, дыбыс және жарық. Дисплей жарықтанады, көрсеткішті бекітеді, шекті өзі таңдайды, MAX, MIN, AVG және DIF мәндерін көрсетеді."
-          : "Цифровой многофункциональный измеритель: относительная влажность, температура, атмосферное давление, звук и свет. Дисплей подсвечивается, фиксирует показание, сам выбирает предел и показывает MAX, MIN, AVG и DIF."}</p>
-        <ul class="tasks">
-          <li>POWER — ${kk ? "қосу және өшіру" : "включение и выключение"}</li>
-          <li>B.L. — ${kk ? "дисплей жарығы" : "подсветка дисплея"}</li>
-          <li>HOLD — ${kk ? "көрсеткішті бекіту" : "фиксация показания"}</li>
-          <li>MODE — MAX, MIN, AVG, DIF</li>
-          <li>UNIT — ${kk ? "бірлікті таңдау" : "выбор единицы"}</li>
-          <li>TEMP/%RH — ${kk ? "температура мен ылғалдылық арасында ауысу" : "переключение температуры и влажности"}</li>
-          <li>ANEMO — ${kk ? "ауа ағыны және жел жылдамдығы" : "поток воздуха и скорость ветра"}</li>
-          <li>Lux — ${kk ? "жарық" : "освещённость"}, dB — ${kk ? "дыбыс" : "звук"}</li>
-        </ul>
-        <h4>${kk ? "Қалай өлшейсіз" : "Как измеряете"}</h4>
-        <ol class="tasks">
-          <li>${kk
-            ? "Температура. Датчикті бөлмеге қойып, 20 минут күтіңіз. «TEMP/%RH» түймесін екі рет басыңыз. Бастапқы бірлік — °C. «UNIT» оны °F-қа ауыстырады."
-            : "Температура. Поставьте датчик в помещение и подождите 20 минут. Дважды нажмите «TEMP/%RH». Исходная единица — °C. «UNIT» переключает её на °F."}</li>
-          <li>${kk
-            ? "Ылғалдылық. Сол 20 минуттан кейін «TEMP/%RH» түймесін тағы екі рет бассаңыз, құрал ылғалдылық режиміне өтеді. Датчик жауабы — 5 секунд."
-            : "Влажность. После тех же 20 минут ещё два нажатия «TEMP/%RH» переводят прибор в режим влажности. Отклик датчика — 5 секунд."}</li>
-          <li>${kk
-            ? "Жылдамдық. Датчикті ауа ағынына перпендикуляр қойыңыз да, «ANEMO» түймесін басыңыз. Бастапқы бірлік — м/с."
-            : "Скорость. Поставьте датчик перпендикулярно потоку воздуха и нажмите «ANEMO». Исходная единица — м/с."}</li>
-        </ol>
-      </div>`;
   }
 
   function renderLabDetail() {
@@ -772,14 +933,13 @@
       </div>
       <p class="fire-result">${fireKey ? FIRE[fireKey][lang] : t("fireD")}</p>` : "";
     document.getElementById("lab-detail").innerHTML = `
-      <p class="kicker">${pack.manual ? pack.manual + " · " : ""}${lab.hours} ${t("hour")}</p>
+      <p class="kicker">${pack.manual || ""}</p>
       <h3>${pack.full || pack.title}</h3>
       <p>${pack.text}</p>
       <p><b>${t("you")}. </b>${pack.you}</p>
       <p class="measure"><b>${t("why")}. </b>${pack.why}</p>
-      ${fire}
-      ${labIndex === 0 ? renderMeteo() : ""}
-      ${window.labManual ? window.labManual(labIndex, lang) : ""}`;
+      <p class="principle"><a class="btn btn-ghost" href="method.html?lab=${labIndex}">${t("principle")}</a></p>
+      ${fire}`;
   }
 
   function buildCards() {
@@ -788,7 +948,6 @@
       <button type="button" class="lab-card" data-lab="${index}">
         <span class="n">${String(index + 1).padStart(2, "0")}</span>
         <b>${lab[lang].title}</b>
-        <span class="pill">${lab.hours} ${t("hour")}</span>
       </button>`).join("");
   }
 
@@ -924,6 +1083,9 @@
         try { localStorage.setItem("eq-lang", lang); } catch (error) { /* ignore */ }
         refresh();
       });
+    });
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      applyTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
     });
 
     const toggle = document.querySelector(".nav-toggle");
