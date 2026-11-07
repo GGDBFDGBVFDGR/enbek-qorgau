@@ -131,8 +131,9 @@
     let lastX = 0;
 
     function resize() {
-      const width = canvas.clientWidth || 1;
-      const height = canvas.clientHeight || 1;
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      if (!width || !height) return;
       renderer.setSize(width, height, false);
       camera.aspect = width / height;
       camera.updateProjectionMatrix();
@@ -140,6 +141,7 @@
 
     resize();
     window.addEventListener("resize", resize);
+    if (window.ResizeObserver) new ResizeObserver(resize).observe(canvas);
 
     canvas.addEventListener("pointerdown", function (event) {
       dragging = true;
