@@ -10,14 +10,18 @@
     try {
       var savedTheme = localStorage.getItem("eq-theme");
       if (savedTheme === "light" || savedTheme === "dark") document.documentElement.dataset.theme = savedTheme;
-    } catch (error) { /* keep dark */ }
+      var savedSubject = localStorage.getItem("eq-subject");
+      var hash = location.hash;
+      if (hash === "#eco" || hash === "#ecology" || hash.indexOf("#eco-") === 0) savedSubject = "eco";
+      if (savedSubject === "eco" || savedSubject === "ot") document.documentElement.dataset.subject = savedSubject;
+    } catch (error) { /* keep occupational safety */ }
   </script>
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
   <a class="skip" href="#main" data-i18n="skip">Негізгіге өту</a>
@@ -47,9 +51,18 @@
       </div>
       <button class="theme-toggle" type="button" id="theme-toggle" aria-pressed="false">☀</button>
     </div>
+    <div class="wrap subject-bar">
+      <span class="subject-faculty" data-i18n="faculty">Тау-кен факультеті</span>
+      <div class="subject-switch" role="tablist" aria-labelledby="faculty-label">
+        <span class="sr" id="faculty-label" data-i18n="faculty">Тау-кен факультеті</span>
+        <button type="button" role="tab" data-subject="ot" data-i18n="subjectOt" aria-selected="true">Еңбекті қорғау</button>
+        <button type="button" role="tab" data-subject="eco" data-i18n="subjectEco" aria-selected="false">Экология</button>
+      </div>
+    </div>
   </header>
 
   <main id="main">
+    <div id="view-ot">
     <section class="hero" id="top">
       <div class="wrap hero-grid">
         <div>
@@ -189,6 +202,97 @@
         <div class="card quiz-card" id="quiz"></div>
       </div>
     </section>
+    </div>
+
+    <div id="view-eco">
+      <section class="hero" id="eco-top">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="kicker" data-i18n="faculty">Тау-кен факультеті</p>
+            <h1 data-i18n="ecoTitle">Экология</h1>
+            <p class="lede" data-i18n="ecoHeroLead"></p>
+            <div class="cta">
+              <a class="btn btn-primary" href="#eco-about" data-i18n="ctaAbout">Пәнді түсіну</a>
+              <a class="btn btn-ghost" href="#eco-plan" data-i18n="ecoCtaPlan">12 дәріс</a>
+              <a class="btn btn-ghost" href="#eco-prac" data-i18n="ecoCtaImpact">8 практика</a>
+            </div>
+          </div>
+          <div class="visual eco-visual">
+            <div class="planet" aria-hidden="true">
+              <div class="planet-sphere"></div>
+              <div class="planet-orbit"></div>
+            </div>
+            <p class="drag-hint" data-i18n="ecoHint">Қоршаған орта</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="eco-about">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker" data-i18n="aboutKicker">Белгі не дейді</p>
+            <h2 data-i18n="aboutTitle">Үш шеңбер — пәннің тірегі</h2>
+          </div>
+          <div class="identity">
+            <img src="logo.jpg" width="116" height="116" alt="" data-i18n-alt="logoAlt">
+            <p class="lede" data-i18n="ecoIconLead" style="margin:0"></p>
+          </div>
+          <div class="pillars">
+            <article class="pillar health"><b data-i18n="pHealth">Денсаулық</b><span data-i18n="ecoPHealth"></span></article>
+            <article class="pillar env"><b data-i18n="pEnv">Қоршаған орта</b><span data-i18n="ecoPEnv"></span></article>
+            <article class="pillar safe"><b data-i18n="pSafe">Қауіпсіздік</b><span data-i18n="ecoPSafe"></span></article>
+          </div>
+          <div class="grid-2" style="margin-top:18px">
+            <article class="card">
+              <h3 data-i18n="ecoDescTitle">Пәннің сипаттамасы</h3>
+              <p data-i18n="ecoDescText"></p>
+              <h3 data-i18n="goalTitle">Мақсаты</h3>
+              <p data-i18n="ecoGoalText"></p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="ecoTaskTitle">Міндеттері</h3>
+              <ol class="tasks">
+                <li data-i18n="ecoTask1"></li>
+                <li data-i18n="ecoTask2"></li>
+                <li data-i18n="ecoTask3"></li>
+                <li data-i18n="ecoTask4"></li>
+                <li data-i18n="ecoTask5"></li>
+                <li data-i18n="ecoTask6"></li>
+                <li data-i18n="ecoTask7"></li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="eco-plan">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker" data-i18n="ecoPlanKicker">9-бөлім · дәріс</p>
+            <h2 data-i18n="ecoPlanTitle">Дәрісте не өтесіз</h2>
+            <p class="lede" data-i18n="ecoPlanLead"></p>
+          </div>
+          <div class="plan-layout">
+            <div class="topic-list" id="eco-topic-list"></div>
+            <article class="topic-detail" id="eco-topic-detail"></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="eco-prac">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker" data-i18n="ecoPracKicker">9-бөлім · практика</p>
+            <h2 data-i18n="ecoPracTitle">Практикада не есептейсіз</h2>
+            <p class="lede" data-i18n="ecoPracLead"></p>
+          </div>
+          <div class="plan-layout">
+            <div class="topic-list" id="eco-prac-list"></div>
+            <article class="topic-detail" id="eco-prac-detail"></article>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="footer">
@@ -208,6 +312,6 @@
 
   <script src="vendor/three.min.js"></script>
   <script src="scene.js"></script>
-  <script src="app.js?v=18"></script>
+  <script src="app.js?v=28"></script>
 </body>
 </html>

@@ -83,6 +83,60 @@
       you: "Не істейсіз",
       why: "Неге керек",
       principle: "Жұмыс принципі",
+      faculty: "Тау-кен факультеті",
+      subjectOt: "Еңбекті қорғау",
+      subjectEco: "Экология",
+      navEcoAbout: "Пән",
+      navEcoPlan: "Жоспар",
+      navEcoImpact: "Практика",
+      navEcoCheck: "СРО",
+      navEcoMile: "Бақылау",
+      ecoTitle: "Экология",
+      ecoHeroLead: "Тақырыптық жоспар бойынша пән: экология, заң, тұрақты даму және төтенше жағдайда халықты қорғау.",
+      ecoCtaPlan: "12 дәріс",
+      ecoCtaImpact: "8 практика",
+      ecoHint: "Қоршаған орта",
+      ecoIconLead: "Ортадағы әріп — Тау-кен факультеті. Үш сақина кафедраның үш бағыты: денсаулық, қоршаған орта және қауіпсіздік. Экология осы үшеуінің түйіскен жері: ортаны қорғау, тіршілік қауіпсіздігі және төтенше жағдай.",
+      ecoPHealth: "Тірі организм, экожүйе және биосфера. Адамды зиянды фактор мен жағымсыз әсерден сақтау.",
+      ecoPEnv: "Қоршаған ортаны қорғау, табиғатты пайдаланудың салдары және экологиялық құқық.",
+      ecoPSafe: "Тіршілік қауіпсіздігі, азаматтық қорғаныс және төтенше жағдайда халық пен персоналды қорғау.",
+      ecoDescTitle: "Пәннің сипаттамасы",
+      ecoDescText: "«Экология және тіршілік қауіпсіздігі» жалпы білім беретін пәндер цикліне кіреді (ЖОО компоненті). Бұл экологиялық мәдениеттің, тіршілік әрекетінің қауіпсіз және зиянсыз жағдайының, түлектің инженерлік-техникалық қызметінің іргетасы. Пән қоршаған ортаны қорғауды, тіршілік қауіпсіздігін, азаматтық қорғаныс пен төтенше жағдайды қамтиды.",
+      ecoGoalText: "Студенттің бойында азаматтық қорғаныс пен төтенше жағдайда, сондай-ақ қоршаған ортаны қорғау саласында тәуекелді басқарудың практикалық дағдысын қалыптастыру.",
+      ecoTaskTitle: "Міндеттері",
+      ecoTask1: "Тірі организмнің, әртүрлі ұйымдасу деңгейіндегі экожүйенің, тұтас биосфераның және олардың тұрақтылығының негізгі заңдылығын игеру.",
+      ecoTask2: "Табиғатты пайдалану қарқындаған кезде адамның экономикалық қызметінің экологиялық салдары туралы білім алу.",
+      ecoTask3: "Экологиялық құқық нормасын түсіндіре білу.",
+      ecoTask4: "Тіршілік әрекетінің қауіпсіз және зиянсыз жағдайын, оның ішінде төтенше жағдайда, қамтамасыз ету ерекшелігін меңгеру.",
+      ecoTask5: "Қауіпті және зиянды өндірістік факторды анықтау ережесі мен әдісін зерделеу.",
+      ecoTask6: "Өндірістік персоналды авариядан, апаттан және дүлей зілзаладан қорғаудың инженерлік, санитариялық-эпидемиологиялық және ұйымдастыру шешімін әзірлеп, қабылдай білу.",
+      ecoTask7: "Адам мен қоршаған ортаны жағымсыз әсерден қорғау шарасын әзірлеу және жүзеге асыру.",
+      ecoLec: "дәріс",
+      ecoPz: "практика",
+      ecoSrsp: "СРСП",
+      ecoSrs: "СРС",
+      ecoPlanKicker: "9-бөлім · дәріс",
+      ecoPlanTitle: "Дәрісте не өтесіз",
+      ecoPlanLead: "Он екі дәріс. Мақсаты — теориялық білімді бекіту.",
+      ecoGoalLabel: "Мақсаты",
+      ecoTaskLabel: "Тапсырма",
+      ecoFix: "Теориялық білімді бекіту",
+      ecoPracKicker: "Практика",
+      ecoPracTitle: "Практикада не есептейсіз",
+      ecoPracLead: "Сегіз жұмыс. Әр карточкада мақсат және тапсырма.",
+      ecoSropKicker: "СРОП",
+      ecoSropTitle: "Оқытушымен жұмыс",
+      ecoSropLead: "Он екі тапсырма. Нөмірі дәріс нөмірімен сәйкес.",
+      ecoMileKicker: "Бақылау",
+      ecoMileTitle: "Межелік бақылау",
+      ecoMileText: "Өтілген материалды тексеру",
+      ecoMileFinal: "Пән материалының игерілуін тексеру",
+      ecoSelfKicker: "11.1",
+      ecoSelfTitle: "Шығармашылық және зерттеу тапсырмалары",
+      ecoCheckKicker: "11.2",
+      ecoCheckTitle: "СРО бақылау сұрақтары",
+      ecoNote: "Сұрақтар силлабустағы бақылау тізімі. Жауап сабақта ашылады.",
+      ecoFooterNote: "Тау-кен факультеті, «Өнеркәсіптік қауіпсіздік және экология» кафедрасы.",
       themeLight: "Ашық тақырып",
       themeDark: "Қараңғы тақырып"
     },
@@ -169,6 +223,60 @@
       you: "Что делаете",
       why: "Зачем это",
       principle: "Принцип работы",
+      faculty: "Горный факультет",
+      subjectOt: "Охрана труда",
+      subjectEco: "Экология",
+      navEcoAbout: "Предмет",
+      navEcoPlan: "План",
+      navEcoImpact: "Практика",
+      navEcoCheck: "СРО",
+      navEcoMile: "Контроль",
+      ecoTitle: "Экология",
+      ecoHeroLead: "Предмет по тематическому плану: экология, закон, устойчивое развитие и защита населения в чрезвычайных ситуациях.",
+      ecoCtaPlan: "12 лекций",
+      ecoCtaImpact: "8 практических",
+      ecoHint: "Окружающая среда",
+      ecoIconLead: "Буквы в центре — горный факультет. Три кольца — три направления кафедры: здоровье, окружающая среда и безопасность. Экология стоит на их стыке: охрана среды, безопасность жизнедеятельности и чрезвычайные ситуации.",
+      ecoPHealth: "Живые организмы, экосистемы и биосфера. Защита человека от вредных факторов и неблагоприятных воздействий.",
+      ecoPEnv: "Охрана окружающей среды, последствия природопользования и экологическое право.",
+      ecoPSafe: "Безопасность жизнедеятельности, гражданская оборона и защита населения и персонала при чрезвычайной ситуации.",
+      ecoDescTitle: "Описание предмета",
+      ecoDescText: "«Экология и безопасность жизнедеятельности» входит в цикл общеобразовательных дисциплин (вузовский компонент). Это основа экологической культуры, безопасных и безвредных условий жизнедеятельности и инженерно-технической работы выпускника. Предмет охватывает охрану окружающей среды, безопасность жизнедеятельности, гражданскую оборону и чрезвычайные ситуации.",
+      ecoGoalText: "Сформировать практические навыки управления рисками в гражданской обороне и чрезвычайных ситуациях, а также в охране окружающей среды.",
+      ecoTaskTitle: "Задачи",
+      ecoTask1: "Освоить основные закономерности живых организмов, экосистем разного уровня организации, биосферы в целом и их устойчивости.",
+      ecoTask2: "Понять экологические последствия хозяйственной деятельности человека, когда природопользование усиливается.",
+      ecoTask3: "Уметь разъяснять нормы экологического права.",
+      ecoTask4: "Освоить, как обеспечиваются безопасные и безвредные условия жизнедеятельности, в том числе при чрезвычайных ситуациях.",
+      ecoTask5: "Изучить правила и методы выявления опасных и вредных производственных факторов.",
+      ecoTask6: "Уметь разрабатывать и принимать инженерные, санитарно-эпидемиологические и организационные решения по защите персонала от аварий, катастроф и стихийных бедствий.",
+      ecoTask7: "Уметь разрабатывать и проводить меры защиты человека и окружающей среды от неблагоприятных воздействий.",
+      ecoLec: "лекции",
+      ecoPz: "ПЗ",
+      ecoSrsp: "СРСП",
+      ecoSrs: "СРС",
+      ecoPlanKicker: "Раздел 9 · лекции",
+      ecoPlanTitle: "Что проходит на лекциях",
+      ecoPlanLead: "Двенадцать лекций. Цель — закрепить теорию.",
+      ecoGoalLabel: "Цель",
+      ecoTaskLabel: "Задание",
+      ecoFix: "Закрепление теоретических знаний",
+      ecoPracKicker: "Практические",
+      ecoPracTitle: "Что делают на практических",
+      ecoPracLead: "Восемь работ. На карточке цель и задание.",
+      ecoSropKicker: "СРОП",
+      ecoSropTitle: "Работа с преподавателем",
+      ecoSropLead: "Двенадцать заданий. Номер совпадает с номером лекции.",
+      ecoMileKicker: "Контроль",
+      ecoMileTitle: "Рубежный контроль",
+      ecoMileText: "Проверка усвоенного материала",
+      ecoMileFinal: "Проверка усвоения материала дисциплины",
+      ecoSelfKicker: "11.1",
+      ecoSelfTitle: "Творческие и исследовательские задания",
+      ecoCheckKicker: "11.2",
+      ecoCheckTitle: "Контрольные вопросы для СРО",
+      ecoNote: "Это список вопросов из силлабуса. Ответ разбирают на занятии.",
+      ecoFooterNote: "Горный факультет, кафедра «Промышленная безопасность и экология».",
       themeLight: "Светлая тема",
       themeDark: "Тёмная тема"
     },
@@ -255,6 +363,60 @@
       you: "What you do",
       why: "Why it matters",
       principle: "How it works",
+      faculty: "Mining Faculty",
+      subjectOt: "Occupational safety",
+      subjectEco: "Ecology",
+      navEcoAbout: "Subject",
+      navEcoPlan: "Plan",
+      navEcoImpact: "Practical",
+      navEcoCheck: "SRO",
+      navEcoMile: "Check",
+      ecoTitle: "Ecology",
+      ecoHeroLead: "The subject from the topic plan: ecology, law, sustainable development and protection of the population in emergencies.",
+      ecoCtaPlan: "12 lectures",
+      ecoCtaImpact: "8 practicals",
+      ecoHint: "The environment",
+      ecoIconLead: "The letters in the centre are the Mining Faculty. Three rings are the department’s three directions: health, environment and safety. Ecology sits where they meet: protecting the environment, life safety and emergencies.",
+      ecoPHealth: "Living organisms, ecosystems and the biosphere. Protecting a person from harmful factors and adverse effects.",
+      ecoPEnv: "Environmental protection, the consequences of using nature, and environmental law.",
+      ecoPSafe: "Life safety, civil defence, and protection of the population and staff in an emergency.",
+      ecoDescTitle: "What the subject is",
+      ecoDescText: "Ecology and Life Safety belongs to the cycle of general education courses (the university component). It is the foundation of ecological culture, of safe and harmless conditions of life, and of a graduate’s engineering work. The course covers environmental protection, life safety, civil defence and emergencies.",
+      ecoGoalText: "Build practical skill in managing risk in civil defence and emergencies, and in environmental protection.",
+      ecoTaskTitle: "Tasks",
+      ecoTask1: "Learn the main patterns of living organisms, ecosystems at different levels of organisation, the biosphere as a whole, and their stability.",
+      ecoTask2: "Learn the ecological consequences of human economic activity as the use of nature intensifies.",
+      ecoTask3: "Be able to explain the norms of environmental law.",
+      ecoTask4: "Master how safe and harmless conditions of life are provided, including in emergencies.",
+      ecoTask5: "Study the rules and methods for identifying hazardous and harmful production factors.",
+      ecoTask6: "Be able to develop and adopt engineering, sanitary-epidemiological and organisational decisions that protect staff from accidents, disasters and natural hazards.",
+      ecoTask7: "Gain the knowledge and skill to develop and carry out measures that protect people and the environment from adverse effects.",
+      ecoLec: "lectures",
+      ecoPz: "practical",
+      ecoSrsp: "guided",
+      ecoSrs: "independent",
+      ecoPlanKicker: "Section 9 · lectures",
+      ecoPlanTitle: "What the lectures cover",
+      ecoPlanLead: "Twelve lectures. The aim is to consolidate the theory.",
+      ecoGoalLabel: "Aim",
+      ecoTaskLabel: "Task",
+      ecoFix: "Consolidation of theoretical knowledge",
+      ecoPracKicker: "Practicals",
+      ecoPracTitle: "What the practicals cover",
+      ecoPracLead: "Eight tasks. The card shows the aim and the assignment.",
+      ecoSropKicker: "Guided study",
+      ecoSropTitle: "Work with the teacher",
+      ecoSropLead: "Twelve tasks. The number matches the lecture number.",
+      ecoMileKicker: "Assessment",
+      ecoMileTitle: "Progress checks",
+      ecoMileText: "A check of the material already studied",
+      ecoMileFinal: "A check of how the whole subject has been learned",
+      ecoSelfKicker: "11.1",
+      ecoSelfTitle: "Creative and research tasks",
+      ecoCheckKicker: "11.2",
+      ecoCheckTitle: "Control questions for independent work",
+      ecoNote: "These are the questions from the syllabus. The answer is worked through in class.",
+      ecoFooterNote: "Mining Faculty, Department of Industrial Safety and Ecology.",
       themeLight: "Light theme",
       themeDark: "Dark theme"
     }
@@ -843,6 +1005,172 @@
     en: ["Open the mark, the labs and first aid again.", "The main direction is right. Reread one lab and one help step.", "You told the core of the subject, a measurement and the first action apart."]
   };
 
+  const NAV = {
+    ot: [["#about", "navAbout"], ["#plan", "navPlan"], ["#labs", "navLabs"], ["#aid", "navAid"], ["#check", "navCheck"]],
+    eco: [["#eco-about", "navEcoAbout"], ["#eco-plan", "navEcoPlan"], ["#eco-prac", "navEcoImpact"]]
+  };
+
+  const ECO_LECTURES = [
+    { lec: 2, srsp: 1, srs: 4, kk: "Кіріспе дәріс", ru: "Вводная лекция", en: "Introductory lecture" },
+    { lec: 2, srsp: 1, srs: 4, kk: "ҚР экологиялық заңнамасы", ru: "Экологическое законодательство РК", en: "Environmental legislation of Kazakhstan" },
+    { lec: 2, srsp: 1, srs: 4, kk: "Қазіргі заманның экологиялық мәселелері", ru: "Экологические проблемы современности", en: "Environmental problems of the present" },
+    { lec: 4, srsp: 2, srs: 5, kk: "Тұрақты даму тұжырымдамасы", ru: "Концепция устойчивого развития", en: "The concept of sustainable development" },
+    { lec: 6, srsp: 1, srs: 5, kk: "Инженерлік экология", ru: "Инженерная экология", en: "Engineering ecology" },
+    { lec: 2, srsp: 1, srs: 5, kk: "Тіршілік қауіпсіздігі саласындағы заңнамалық актілер", ru: "Законодательные акты в области безопасности жизнедеятельности", en: "Legislative acts in life safety" },
+    { lec: 2, srsp: 2, srs: 5, kk: "Республикалық азаматтық қорғау қызметтерінің рөлі, негізгі міндеттері және ұйымдық құрылымы", ru: "Роль, основные задачи и организационная структура республиканских служб гражданской защиты", en: "Role, main tasks and structure of the republican civil protection services" },
+    { lec: 2, srsp: 1, srs: 4, kk: "Адамның тіршілік ету ортасының қауіптілігі", ru: "Опасность среды обитания человека", en: "Hazards of the human living environment" },
+    { lec: 2, srsp: 1, srs: 4, kk: "Әртүрлі сипаттағы төтенше жағдайлардың сыныптамасы", ru: "Классификация чрезвычайных ситуаций различного характера", en: "Classification of emergencies of different kinds" },
+    { lec: 2, srsp: 2, srs: 5, kk: "Төтенше жағдайлар кезінде халықты қорғаудың негізгі қағидаттары мен тәсілдері", ru: "Основные принципы и способы защиты населения при чрезвычайных ситуациях", en: "Main principles and ways of protecting the population in emergencies" },
+    { lec: 2, srsp: 1, srs: 4, kk: "Төтенше жағдайларда объектілердің жұмыс істеуінің орнықтылығы", ru: "Устойчивость функционирования объектов в чрезвычайных ситуациях", en: "Stability of how facilities operate in emergencies" },
+    { lec: 2, srsp: 1, srs: 4, kk: "Зардап шеккен аймақтағы құтқару және басқа да кезек күттірмейтін жұмыстар", ru: "Спасательные и другие неотложные работы в пострадавшей зоне", en: "Rescue and other urgent work in the affected area" }
+  ];
+
+  const ECO_PRACTICAL = [
+    {
+      pz: 2, srs: 4,
+      kk: "СҚА нақтыланған өлшемдерін есептеу және графикалық салу",
+      ru: "Расчет и графическое построение уточненных размеров СЗЗ",
+      en: "Calculate and plot the refined sanitary protection zone",
+      goal: { kk: "СҚА есептеу әдістемесін зерделеу.", ru: "Изучение методики расчета СЗЗ.", en: "Study the method for calculating the sanitary protection zone." },
+      tasks: {
+        kk: ["СҚА нақтыланған өлшемдерін анықтап, графикте салу."],
+        ru: ["Определить и построить уточненные размеры СЗЗ."],
+        en: ["Determine the refined size of the sanitary protection zone and plot it."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Соңғы ұзындықтағы түзу сымның электр және магнит өрісінің кернеулігін есептеу",
+      ru: "Расчет напряженности электрического и магнитного поля прямолинейного провода конечной длины",
+      en: "Electric and magnetic field strength of a straight wire of finite length",
+      goal: { kk: "Соңғы ұзындықтағы түзу сым өрісін есептеу әдістемесін зерделеу.", ru: "Изучение расчета поля прямолинейного провода конечной длины.", en: "Study how to calculate the field of a straight wire of finite length." },
+      tasks: {
+        kk: ["Электр өрісінің кернеулігін есептеу.", "Магнит өрісінің кернеулігін есептеу."],
+        ru: ["Рассчитать напряженность электрического поля.", "Рассчитать напряженность магнитного поля."],
+        en: ["Calculate the electric field strength.", "Calculate the magnetic field strength."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Екі сымды желінің электр өрісінің кернеулігін есептеу",
+      ru: "Расчет напряженности электрического поля двухпроводной линии",
+      en: "Electric field strength of a two-wire line",
+      goal: { kk: "Екі сымды желінің электр өрісін есептеу әдістемесін зерделеу.", ru: "Изучение расчета электрического поля двухпроводной линии.", en: "Study how to calculate the electric field of a two-wire line." },
+      tasks: {
+        kk: ["Екі сымды желінің электр өрісінің кернеулігін есептеу."],
+        ru: ["Рассчитать напряженность электрического поля двухпроводной линии."],
+        en: ["Calculate the electric field strength of a two-wire line."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Жылу электр станциясынан ластаушы заттардың шығарындыларын есептеу",
+      ru: "Расчет выбросов загрязняющих веществ от тепловой электростанции",
+      en: "Pollutant emissions from a thermal power plant",
+      goal: { kk: "Жылу электр станциясының шығарындысын есептеу әдістемесін зерделеу.", ru: "Изучение расчета выбросов тепловой электростанции.", en: "Study how to calculate emissions from a thermal power plant." },
+      tasks: {
+        kk: ["Ластаушы заттардың шығарындыларын есептеу."],
+        ru: ["Рассчитать выбросы загрязняющих веществ."],
+        en: ["Calculate the pollutant emissions."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Иондаушы сәулеленудің адам ағзасына әсері. Радиациялық қауіпсіздік нормалары және сәулелену дозаларын есептеу",
+      ru: "Влияние ионизирующих излучений на организм человека. Нормы радиационной безопасности и расчет доз облучения",
+      en: "Effect of ionising radiation and calculation of exposure doses",
+      goal: { kk: "Иондаушы сәуленің әсерін және радиациялық қауіпсіздік нормаларын зерделеу.", ru: "Изучение влияния ионизирующих излучений и норм радиационной безопасности.", en: "Study the effect of ionising radiation and the radiation safety norms." },
+      tasks: {
+        kk: ["Сәулелену дозаларын есептеу."],
+        ru: ["Рассчитать дозы облучения."],
+        en: ["Calculate the exposure doses."]
+      }
+    },
+    {
+      pz: 1, srs: 4,
+      kk: "Химиялық қауіпті объектілердегі авариялар қаупін бағалау",
+      ru: "Оценка риска аварий на химически опасных объектах",
+      en: "Accident risk at chemically hazardous facilities",
+      goal: { kk: "Химиялық қауіпті объектідегі авария қаупін бағалау әдістемесін зерделеу.", ru: "Изучение оценки риска аварий на химически опасных объектах.", en: "Study how to assess accident risk at a chemically hazardous facility." },
+      tasks: {
+        kk: ["Авария қаупін бағалау."],
+        ru: ["Оценить риск аварии."],
+        en: ["Assess the accident risk."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Қалалық және басқа да объектілерге өрт тәуекелін есептеу",
+      ru: "Расчет пожарного риска для городских и других объектов",
+      en: "Fire risk for urban and other facilities",
+      goal: { kk: "Өрт тәуекелін есептеу әдістемесін зерделеу.", ru: "Изучение расчета пожарного риска.", en: "Study how to calculate fire risk." },
+      tasks: {
+        kk: ["Қалалық және басқа да объектілерге өрт тәуекелін есептеу."],
+        ru: ["Рассчитать пожарный риск для городских и других объектов."],
+        en: ["Calculate the fire risk for urban and other facilities."]
+      }
+    },
+    {
+      pz: 2, srs: 4,
+      kk: "Зардап шеккен халықтың тіршілігін қамтамасыз етуді ұйымдастыру. Тіршілікті қамтамасыз ету жүйелерінің сенімділігін есептеу",
+      ru: "Организация жизнеобеспечения пострадавшего населения. Расчет надежности систем жизнеобеспечения",
+      en: "Life support for the affected population and system reliability",
+      goal: { kk: "Зардап шеккен халықтың тіршілігін ұйымдастыруды және жүйе сенімділігін есептеуді зерделеу.", ru: "Изучение организации жизнеобеспечения и расчета надежности его систем.", en: "Study how life support is organised and how its reliability is calculated." },
+      tasks: {
+        kk: ["Тіршілікті қамтамасыз етуді ұйымдастыру.", "Жүйелердің сенімділігін есептеу."],
+        ru: ["Организовать жизнеобеспечение пострадавшего населения.", "Рассчитать надежность систем жизнеобеспечения."],
+        en: ["Organise life support for the affected population.", "Calculate the reliability of the life-support systems."]
+      }
+    }
+  ];
+
+  const ECO_SROP = [
+    { kk: "Пәнге кіріспе", ru: "Введение в курс дисциплины", en: "Introduction to the course", work: { kk: "Ауызша сұрақ", ru: "Устный опрос", en: "Oral check" } },
+    { kk: "Қоршаған ортаны қорғау саласындағы ҚР заңнамалық базасын зерделеу", ru: "Изучение законодательной базы РК в области охраны окружающей среды", en: "Study of Kazakhstan’s legal base for environmental protection", work: { kk: "Әдеби шолу", ru: "Литературный обзор", en: "Literature review" } },
+    { kk: "Қоршаған ортаға техногендік әсер түрлерін анықтау", ru: "Выявление видов техногенного воздействия на окружающую среду", en: "Identify types of technological impact on the environment", work: { kk: "Ауызша сұрақ", ru: "Устный опрос", en: "Oral check" } },
+    { kk: "Тұрақты дамудың принциптері мен деңгейлерін зерделеу", ru: "Изучение принципов, уровней устойчивого развития", en: "Study the principles and levels of sustainable development", work: { kk: "Презентация дайындап, қорғау", ru: "Подготовка и защита презентации", en: "Prepare and defend a presentation" } },
+    { kk: "Физикалық ластанудың қоршаған ортаға әсерін зерделеу", ru: "Изучение воздействия физического загрязнения на состояние окружающей среды", en: "Study how physical pollution affects the environment", work: { kk: "Презентация дайындап, қорғау", ru: "Подготовка и защита презентации", en: "Prepare and defend a presentation" } },
+    { kk: "Тіршілік қауіпсіздігі саласындағы нормативтік-құқықтық актілерді зерделеу", ru: "Изучение нормативно-правовых актов в области БЖД", en: "Study the legal acts on life safety", work: { kk: "Ауызша сұрақ", ru: "Устный опрос", en: "Oral check" } },
+    { kk: "Азаматтық қорғаудың негізгі міндеттері мен принциптерін зерделеу", ru: "Изучение основных задач и принципов гражданской защиты", en: "Study the main tasks and principles of civil protection", work: { kk: "Презентация дайындап, қорғау", ru: "Подготовка и защита презентации", en: "Prepare and defend a presentation" } },
+    { kk: "Қауіптердің көздері мен пайда болу себептерін талдау", ru: "Анализ источников и причин возникновения опасностей", en: "Analyse the sources and causes of hazards", work: { kk: "Реферат жазу", ru: "Написание реферата", en: "Write a paper" } },
+    { kk: "Төтенше жағдайлардың түрлері мен сыныптарын зерделеу", ru: "Изучение видов и классов ЧС", en: "Study the types and classes of emergencies", work: { kk: "Әдеби шолу", ru: "Литературный обзор", en: "Literature review" } },
+    { kk: "Халықты қорғау дағдысын меңгеру", ru: "Умение приобретения навыков по защите населения", en: "Gain skills in protecting the population", work: { kk: "Презентация дайындап, қорғау", ru: "Подготовка и защита презентации", en: "Prepare and defend a presentation" } },
+    { kk: "Төтенше жағдайда объектілер жұмысының тұрақтылығын бағалау", ru: "Умение оценить устойчивость функционирования объектов в ЧС", en: "Assess how stably facilities work in an emergency", work: { kk: "Жұмысты қорғау", ru: "Защита работы", en: "Defend the work" } },
+    { kk: "Құтқару және басқа да кезек күттірмейтін жұмыстарды ұйымдастыру мен жүргізу негіздерін анықтау", ru: "Определить основы организации и ведения СиДНР", en: "Set out how rescue and other urgent work is organised and carried out", work: { kk: "Презентация дайындап, қорғау", ru: "Подготовка и защита презентации", en: "Prepare and defend a presentation" } }
+  ];
+
+  const ECO_TASKS = [
+    { kk: "11.2-тармақтағы №2, 4, 7 тақырыптар бойынша тезаурус құру (дескриптор кемінде 15).", ru: "Составить тезаурус по темам № 2, 4, 7 из пункта 11.2 (дескрипторов не менее 15).", en: "Build a thesaurus for topics 2, 4 and 7 in item 11.2 (at least 15 descriptors)." },
+    { kk: "11.2-тармақтағы №1, 5, 6 тақырыптар бойынша шолу жасау (кемінде 3 дереккөз).", ru: "Составить обзор по темам № 1, 5, 6 из пункта 11.2 (не менее 3 источников).", en: "Write a review of topics 1, 5 and 6 in item 11.2 (at least 3 sources)." },
+    { kk: "11.2-тармақтағы №3 тақырып бойынша пікірталас жүргізу (кемінде 3 дереккөз).", ru: "Провести полемизирование по теме № 3 из пункта 11.2 (не менее 3 источников).", en: "Argue topic 3 from item 11.2 (at least 3 sources)." },
+    { kk: "Қарағанды облысының су ресурстарының экологиялық жағдайын талдау.", ru: "Проанализировать экологическое состояние водных ресурсов Карагандинской области.", en: "Analyse the environmental state of water resources in the Karaganda region." },
+    { kk: "Қарағанды облысының жер ресурстарының экологиялық жағдайын талдау.", ru: "Проанализировать экологическое состояние земельных ресурсов Карагандинской области.", en: "Analyse the environmental state of land resources in the Karaganda region." },
+    { kk: "Техногендік және табиғи төтенше жағдайдағы қауіптерді талдау.", ru: "Проанализировать опасности при возникновении ЧС техногенного и природного происхождения.", en: "Analyse the hazards of technological and natural emergencies." },
+    { kk: "Қауіптердің көздері мен пайда болу себептерін талдау.", ru: "Проанализировать источники и причины возникновения опасностей.", en: "Analyse the sources and causes of hazards." },
+    { kk: "Төтенше жағдай салдарынан және қазіргі зақымдау құралдарынан халықты қорғау тәсілдерін сипаттау.", ru: "Охарактеризовать способы защиты населения от последствий ЧС и современных средств поражения.", en: "Describe ways to protect the population from emergencies and modern means of destruction." },
+    { kk: "Құтқару және басқа да кезек күттірмейтін жұмыстарды ұйымдастыру мен жүргізу негіздерін бағалау.", ru: "Оценить основы организации и ведения СиДНР.", en: "Assess the basis for organising and carrying out rescue and other urgent work." }
+  ];
+
+  const ECO_QUESTIONS = [
+    { kk: "Кіріспе дәріс.", ru: "Вводная лекция.", en: "Introductory lecture." },
+    { kk: "Экология бөлімдері. Экологиялық факторлар.", ru: "Разделы экологии. Экологические факторы.", en: "Branches of ecology. Environmental factors." },
+    { kk: "ҚР экологиялық заңнамасы.", ru: "Экологическое законодательство РК.", en: "Environmental legislation of Kazakhstan." },
+    { kk: "Қазіргі заманның экологиялық мәселелері.", ru: "Экологические проблемы современности.", en: "Environmental problems of the present." },
+    { kk: "Тұрақты даму тұжырымдамасы.", ru: "Концепция устойчивого развития.", en: "The concept of sustainable development." },
+    { kk: "Қоршаған ортаны физикалық ластанудан, химиялық-биологиялық өндірістен қорғау.", ru: "Защита окружающей среды от физического загрязнения, химико-биологического производства.", en: "Protection of the environment from physical pollution and chemical-biological production." },
+    { kk: "Тіршілік қауіпсіздігі саласындағы заңнамалық актілер.", ru: "Законодательные акты в области безопасности жизнедеятельности.", en: "Legislative acts in life safety." },
+    { kk: "Тіршілік қауіпсіздігі саласындағы ҚР заңдарының рөлі мен маңызы.", ru: "Роль и значение законов РК в области БЖД.", en: "The role of Kazakhstan’s laws in life safety." },
+    { kk: "Азаматтық қорғаныс күштері, олардың құрамы, мақсаты және қолдану тәртібі.", ru: "Силы ГО, их состав, предназначение и порядок применения.", en: "Civil defence forces: composition, purpose and how they are used." },
+    { kk: "Азаматтық қорғаныс құрамаларын құрудың негізгі принципі.", ru: "Основной принцип создания формирований ГО.", en: "The main principle for creating civil defence units." },
+    { kk: "Қауіп көздері. Қауіптердің жіктелуі.", ru: "Источники опасностей. Классификация опасностей.", en: "Sources of hazards. Classification of hazards." },
+    { kk: "Техногендік төтенше жағдайлардың сипаты мен жіктелуі.", ru: "Характеристика и классификация ЧС техногенного характера.", en: "Technological emergencies: description and classification." },
+    { kk: "Табиғи төтенше жағдайлардың сипаты мен жіктелуі.", ru: "Характеристика и классификация ЧС природного характера.", en: "Natural emergencies: description and classification." },
+    { kk: "Төтенше жағдайда халықты қорғау. Қорғау құралдары мен тәсілдері.", ru: "Защита населения при ЧС. Средства и способы защиты.", en: "Protection of the population in an emergency. Means and methods." },
+    { kk: "Медициналық құралдар. Санитариялық өңдеу түрлері.", ru: "Медицинские средства. Виды санитарной обработки.", en: "Medical means. Types of sanitary treatment." },
+    { kk: "Төтенше жағдайда объектілер жұмысы тұрақтылығының негіздері. Тұрақтылықты зерттеудің мәні және ұйымдастырылуы.", ru: "Основы устойчивости работы объектов при ЧС. Сущность, организация исследования устойчивости.", en: "Stability of facilities in an emergency. What a stability study is and how it is organised." },
+    { kk: "Құтқару және басқа да кезек күттірмейтін жұмыстар туралы жалпы ережелер.", ru: "Общие положения по СиДНР.", en: "General points on rescue and other urgent work." }
+  ];
+
   let lang = "kk";
   try {
     const saved = localStorage.getItem("eq-lang");
@@ -862,6 +1190,10 @@
   let locked = false;
   let finished = false;
   let picked = -1;
+  let subject = document.documentElement.dataset.subject === "eco" ? "eco" : "ot";
+  let ecoTopicIndex = 0;
+  let ecoPracIndex = 0;
+  let ecoSropIndex = 0;
 
   const t = (key) => I18N[lang][key];
 
@@ -882,6 +1214,49 @@
       btn.classList.toggle("is-active", btn.dataset.setLang === lang);
     });
     applyTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
+    applySubject();
+  }
+
+  function applySubject() {
+    document.documentElement.dataset.subject = subject;
+    document.title = subject === "eco" ? t("ecoTitle") : t("title");
+    const logoLink = document.querySelector(".header .logo");
+    if (logoLink) logoLink.setAttribute("href", subject === "eco" ? "#eco-top" : "#top");
+    const logo = document.querySelector(".header .logo strong");
+    if (logo) logo.textContent = subject === "eco" ? t("subjectEco") : t("logo");
+    const note = document.querySelector("[data-i18n='footerNote']");
+    if (note) note.textContent = subject === "eco" ? t("ecoFooterNote") : t("footerNote");
+    document.querySelectorAll("[data-subject]").forEach((button) => {
+      const on = button.dataset.subject === subject;
+      button.classList.toggle("is-active", on);
+      button.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    const items = NAV[subject];
+    document.querySelectorAll("#site-nav a").forEach((link, index) => {
+      const item = items[index];
+      if (!item) {
+        link.hidden = true;
+        return;
+      }
+      link.hidden = false;
+      link.setAttribute("href", item[0]);
+      link.textContent = t(item[1]);
+    });
+  }
+
+  function setSubject(next) {
+    subject = next === "eco" ? "eco" : "ot";
+    try { localStorage.setItem("eq-subject", subject); } catch (error) { /* ignore */ }
+    applySubject();
+    const nav = document.getElementById("site-nav");
+    const toggle = document.querySelector(".nav-toggle");
+    if (nav && toggle) {
+      nav.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("nav-open");
+    }
+    const anchor = document.getElementById(subject === "eco" ? "eco-top" : "top");
+    if (anchor) anchor.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function applyTheme(theme) {
@@ -898,15 +1273,31 @@
     if (meta) meta.content = theme === "light" ? "#f7f4ee" : "#08120f";
   }
 
+  function syncTopicButtons(list, items, activeIndex, attr, labelOf) {
+    const buttons = [...list.querySelectorAll(`[${attr}]`)];
+    if (buttons.length !== items.length) {
+      const y = window.scrollY;
+      list.innerHTML = items.map((item, index) => `
+        <button type="button" class="topic${index === activeIndex ? " is-active" : ""}" ${attr}="${index}" aria-pressed="${index === activeIndex}">
+          <span class="n">${String(index + 1).padStart(2, "0")}</span>
+          <span class="topic-title">${labelOf(item)}</span>
+        </button>`).join("");
+      window.scrollTo(0, y);
+      return;
+    }
+    buttons.forEach((button, index) => {
+      const on = index === activeIndex;
+      button.classList.toggle("is-active", on);
+      button.setAttribute("aria-pressed", on ? "true" : "false");
+      const title = button.querySelector(".topic-title");
+      const label = labelOf(items[index]);
+      if (title && title.textContent !== label) title.textContent = label;
+    });
+  }
+
   function renderTopics() {
     const list = document.getElementById("topic-list");
-    list.innerHTML = TOPICS.map((topic, index) => {
-      const pack = topic[lang];
-      return `<button type="button" class="topic${index === topicIndex ? " is-active" : ""}" data-topic="${index}" aria-pressed="${index === topicIndex}">
-        <span class="n">${String(index + 1).padStart(2, "0")}</span>
-        <span>${pack[0]}</span>
-      </button>`;
-    }).join("");
+    syncTopicButtons(list, TOPICS, topicIndex, "data-topic", (topic) => topic[lang][0]);
     const topic = TOPICS[topicIndex];
     document.getElementById("topic-detail").innerHTML = `
       <p class="kicker">${String(topicIndex + 1).padStart(2, "0")}</p>
@@ -1058,6 +1449,52 @@
     document.getElementById("quiz-next").hidden = false;
   }
 
+  function renderEcoTopics() {
+    const list = document.getElementById("eco-topic-list");
+    if (!list) return;
+    syncTopicButtons(list, ECO_LECTURES, ecoTopicIndex, "data-eco-topic", (topic) => topic[lang]);
+    const topic = ECO_LECTURES[ecoTopicIndex];
+    document.getElementById("eco-topic-detail").innerHTML = `
+      <p class="kicker">${String(ecoTopicIndex + 1).padStart(2, "0")}</p>
+      <h3>${topic[lang]}</h3>
+      <p><b>${t("ecoGoalLabel")}. </b>${t("ecoFix")}</p>`;
+  }
+
+  function renderEcoPractical() {
+    const list = document.getElementById("eco-prac-list");
+    if (!list) return;
+    syncTopicButtons(list, ECO_PRACTICAL, ecoPracIndex, "data-eco-prac", (topic) => topic[lang]);
+    const topic = ECO_PRACTICAL[ecoPracIndex];
+    document.getElementById("eco-prac-detail").innerHTML = `
+      <p class="kicker">ПР ${ecoPracIndex + 1}</p>
+      <h3>${topic[lang]}</h3>
+      <p><b>${t("ecoGoalLabel")}. </b>${topic.goal[lang]}</p>
+      <p><b>${t("ecoTaskLabel")}</b></p>
+      <ol class="tasks">${topic.tasks[lang].map((step) => `<li>${step}</li>`).join("")}</ol>`;
+  }
+
+  function renderEcoSrop() {
+    const list = document.getElementById("eco-srop-list");
+    if (!list) return;
+    list.innerHTML = ECO_SROP.map((item, index) => `
+      <button type="button" class="topic${index === ecoSropIndex ? " is-active" : ""}" data-eco-srop="${index}" aria-pressed="${index === ecoSropIndex}">
+        <span class="n">${String(index + 1).padStart(2, "0")}</span>
+        <span>${item[lang]}</span>
+      </button>`).join("");
+    const item = ECO_SROP[ecoSropIndex];
+    document.getElementById("eco-srop-detail").innerHTML = `
+      <p class="kicker">СРОП ${ecoSropIndex + 1}</p>
+      <h3>${item[lang]}</h3>
+      <p><b>${t("ecoTaskLabel")}. </b>${item.work[lang]}</p>`;
+  }
+
+  function renderEcoStudy() {
+    const tasks = document.getElementById("eco-self");
+    const questions = document.getElementById("eco-questions");
+    if (tasks) tasks.innerHTML = ECO_TASKS.map((item) => `<li>${item[lang]}</li>`).join("");
+    if (questions) questions.innerHTML = ECO_QUESTIONS.map((item) => `<li>${item[lang]}</li>`).join("");
+  }
+
   function tiltProtocol(event) {
     const card = document.getElementById("protocol");
     if (!card || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -1068,6 +1505,21 @@
   }
 
   function bind() {
+    document.querySelectorAll(".subject-switch [data-subject]").forEach((button) => {
+      button.addEventListener("click", () => setSubject(button.dataset.subject));
+    });
+    document.getElementById("eco-topic-list").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-eco-topic]");
+      if (!button) return;
+      ecoTopicIndex = Number(button.dataset.ecoTopic);
+      renderEcoTopics();
+    });
+    document.getElementById("eco-prac-list").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-eco-prac]");
+      if (!button) return;
+      ecoPracIndex = Number(button.dataset.ecoPrac);
+      renderEcoPractical();
+    });
     document.querySelectorAll("[data-set-lang]").forEach((button) => {
       button.addEventListener("click", () => {
         lang = button.dataset.setLang;
@@ -1185,6 +1637,8 @@
     renderLabDetail();
     renderAid();
     renderQuiz();
+    renderEcoTopics();
+    renderEcoPractical();
     layoutCarousel();
   }
 
