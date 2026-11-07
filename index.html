@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=11">
+  <link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
   <a class="skip" href="#main" data-i18n="skip">Негізгіге өту</a>
@@ -191,6 +191,12 @@
           <article class="protocol" id="protocol"></article>
         </div>
       </div>
+      <dialog class="comic-dialog" id="comic-dialog">
+        <form method="dialog">
+          <button class="comic-close" type="submit" data-i18n="comicClose">Жабу</button>
+        </form>
+        <img id="comic-full" width="1024" height="558" alt="">
+      </dialog>
     </section>
 
     <section class="section" id="check">
@@ -212,7 +218,8 @@
             <h1 data-i18n="ecoTitle">Экология</h1>
             <p class="lede" data-i18n="ecoHeroLead"></p>
             <div class="cta">
-              <a class="btn btn-primary" href="#eco-plan" data-i18n="ecoCtaPlan">12 дәріс</a>
+              <a class="btn btn-primary" href="#eco-about" data-i18n="ctaAbout">Пәнді түсіну</a>
+              <a class="btn btn-ghost" href="#eco-plan" data-i18n="ecoCtaPlan">12 дәріс</a>
               <a class="btn btn-ghost" href="#eco-prac" data-i18n="ecoCtaImpact">8 практика</a>
             </div>
           </div>
@@ -222,6 +229,44 @@
               <div class="planet-orbit"></div>
             </div>
             <p class="drag-hint" data-i18n="ecoHint">Қоршаған орта</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="eco-about">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="kicker" data-i18n="aboutKicker">Белгі не дейді</p>
+            <h2 data-i18n="aboutTitle">Үш шеңбер — пәннің тірегі</h2>
+          </div>
+          <div class="identity">
+            <img src="logo.jpg" width="116" height="116" alt="" data-i18n-alt="logoAlt">
+            <p class="lede" data-i18n="ecoIconLead" style="margin:0"></p>
+          </div>
+          <div class="pillars">
+            <article class="pillar health"><b data-i18n="pHealth">Денсаулық</b><span data-i18n="ecoPHealth"></span></article>
+            <article class="pillar env"><b data-i18n="pEnv">Қоршаған орта</b><span data-i18n="ecoPEnv"></span></article>
+            <article class="pillar safe"><b data-i18n="pSafe">Қауіпсіздік</b><span data-i18n="ecoPSafe"></span></article>
+          </div>
+          <div class="grid-2" style="margin-top:18px">
+            <article class="card">
+              <h3 data-i18n="ecoDescTitle">Пәннің сипаттамасы</h3>
+              <p data-i18n="ecoDescText"></p>
+              <h3 data-i18n="goalTitle">Мақсаты</h3>
+              <p data-i18n="ecoGoalText"></p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="ecoTaskTitle">Міндеттері</h3>
+              <ol class="tasks">
+                <li data-i18n="ecoTask1"></li>
+                <li data-i18n="ecoTask2"></li>
+                <li data-i18n="ecoTask3"></li>
+                <li data-i18n="ecoTask4"></li>
+                <li data-i18n="ecoTask5"></li>
+                <li data-i18n="ecoTask6"></li>
+                <li data-i18n="ecoTask7"></li>
+              </ol>
+            </article>
           </div>
         </div>
       </section>
@@ -273,6 +318,6 @@
 
   <script src="vendor/three.min.js"></script>
   <script src="scene.js?v=2"></script>
-  <script src="app.js?v=25"></script>
+  <script src="app.js?v=37"></script>
 </body>
 </html>
