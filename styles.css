@@ -541,6 +541,30 @@ html[data-subject="eco"] #view-eco { display: block; }
   letter-spacing: -0.03em;
 }
 .lab-block p { margin: 0 0 10px; }
+.meter {
+  margin: 8px 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.meter img {
+  width: auto;
+  max-width: min(100%, 520px);
+  max-height: 300px;
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px 12px;
+  border: 1px solid rgba(23, 36, 30, 0.08);
+}
+.meter figcaption {
+  margin: 0;
+  font-weight: 800;
+  font-size: 0.92rem;
+  text-align: center;
+}
 .norms-wrap { overflow-x: auto; margin: 8px 0 4px; }
 .norms {
   width: 100%;
@@ -661,6 +685,64 @@ html[data-subject="eco"] #view-eco { display: block; }
   box-shadow: var(--shadow);
 }
 .protocol h3 { font-size: 1.6rem; }
+.comic { margin: 6px 0 4px; }
+.comic-open {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: zoom-in;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(20, 36, 30, 0.12);
+}
+.comic-open img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.comic figcaption {
+  margin: 8px 2px 0;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: rgba(20, 36, 30, 0.62);
+}
+.comic-dialog {
+  width: min(1080px, calc(100vw - 28px));
+  max-height: calc(100vh - 24px);
+  margin: auto;
+  padding: 10px 10px 14px;
+  border: 0;
+  border-radius: 18px;
+  background: #fff;
+  color: #17241e;
+  overflow: auto;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+}
+.comic-dialog::backdrop { background: rgba(8, 18, 15, 0.78); }
+.comic-dialog img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.comic-dialog form {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 8px;
+}
+.comic-close {
+  border: 0;
+  border-radius: 999px;
+  background: #17241e;
+  color: #f3f6f1;
+  font: inherit;
+  font-weight: 800;
+  min-height: 40px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
 .steps { list-style: none; margin: 12px 0 0; padding: 0; }
 .step {
   display: grid;

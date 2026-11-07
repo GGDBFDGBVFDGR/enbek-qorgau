@@ -39,9 +39,23 @@ function meteo(kk) {
       <tr><th></th><th>t, °C</th><th>υ, м/с</th><th>t, °C</th><th>υ, м/с</th></tr>
     </thead><tbody>${rows}</tbody></table></div>
     <h4>MS-6300</h4>
+    ${meterPhoto("ms-6300.png", 338, 562, kk ? "MS-6300 сандық көп функционалды өлшегіш" : "Цифровой многофункциональный измеритель MS-6300")}
     <p>${kk
-      ? "Сандық өлшегіш: ылғалдылық, температура, қысым, дыбыс және жарық. Түймелер: POWER, B.L., HOLD, MODE, UNIT, TEMP/%RH, ANEMO, Lux, dB."
-      : "Цифровой измеритель: влажность, температура, давление, звук и свет. Кнопки: POWER, B.L., HOLD, MODE, UNIT, TEMP/%RH, ANEMO, Lux, dB."}</p>
+      ? "Сандық көп функционалды өлшегіш: ылғалдылық, температура, қысым, дыбыс және жарық."
+      : "Цифровой многофункциональный измеритель: влажность, температура, давление, звук и свет."}</p>
+    <h4>${kk ? "Басқару түймелерінің сипаттамасы" : "Описание кнопок управления"}</h4>
+    <ul class="tasks">
+      <li><b>POWER</b> — ${kk ? "қуатты қосу және өшіру." : "включение и выключение питания."}</li>
+      <li><b>B.L.</b> — ${kk ? "дисплейдің артқы жарығын қосу және өшіру." : "включение и выключение подсветки дисплея."}</li>
+      <li><b>HOLD</b> — ${kk ? "дисплей көрсеткішін бекіту функциясын қосу және өшіру." : "включение и выключение фиксации показания на дисплее."}</li>
+      <li><b>MODE</b> — ${kk ? "MAX, MIN, AVG және DIF (MAX−MIN) мәндерді өлшеу арасында ауысу." : "переход между измерением MAX, MIN, AVG и DIF (MAX−MIN)."}</li>
+      <li><b>UNIT</b> — ${kk ? "бірлік таңдау." : "выбор единицы измерения."}</li>
+      <li><b>SET</b> — ${kk ? "құрылғы параметрлерін реттеу." : "настройка параметров прибора."}</li>
+      <li><b>TEMP/%RH</b> — ${kk ? "температура мен ылғалдылықты өлшеу функциялары арасында ауыстыру." : "переключение между измерением температуры и влажности."}</li>
+      <li><b>Lux</b> — ${kk ? "жарықты өлшеу функциясын қосу және өшіру." : "включение и выключение измерения освещённости."}</li>
+      <li><b>ANEMO</b> — ${kk ? "ауа ағыны мен жел жылдамдығын өлшеу функциялары арасында ауыстыру." : "переключение между измерением потока воздуха и скорости ветра."}</li>
+      <li><b>dB</b> — ${kk ? "дыбыс деңгейін өлшеу." : "измерение уровня звука."}</li>
+    </ul>
     <ol class="tasks">
       <li>${kk ? "Температура. Датчикті 20 минут ұстаңыз. «TEMP/%RH» түймесін екі рет басыңыз. Бастапқы бірлік — °C." : "Температура. Держите датчик 20 минут. Дважды нажмите «TEMP/%RH». Исходная единица — °C."}</li>
       <li>${kk ? "Ылғалдылық. Тағы екі рет «TEMP/%RH». Датчик жауабы — 5 секунд." : "Влажность. Ещё два нажатия «TEMP/%RH». Отклик датчика — 5 секунд."}</li>
@@ -70,7 +84,21 @@ meteo.en = function () {
       <tr><th></th><th>t, °C</th><th>υ, m/s</th><th>t, °C</th><th>υ, m/s</th></tr>
     </thead><tbody>${rows}</tbody></table></div>
     <h4>MS-6300</h4>
-    <p>A digital meter for humidity, temperature, pressure, sound and light. Buttons: POWER, B.L., HOLD, MODE, UNIT, TEMP/%RH, ANEMO, Lux, dB.</p>
+    ${meterPhoto("ms-6300.png", 338, 562, "MS-6300 digital multifunction meter")}
+    <p>A digital multifunction meter for humidity, temperature, pressure, sound and light.</p>
+    <h4>What the controls do</h4>
+    <ul class="tasks">
+      <li><b>POWER</b> — switch the power on and off.</li>
+      <li><b>B.L.</b> — switch the display backlight on and off.</li>
+      <li><b>HOLD</b> — hold or release the reading on the display.</li>
+      <li><b>MODE</b> — switch between MAX, MIN, AVG and DIF (MAX−MIN).</li>
+      <li><b>UNIT</b> — choose the unit.</li>
+      <li><b>SET</b> — adjust the instrument settings.</li>
+      <li><b>TEMP/%RH</b> — switch between temperature and humidity.</li>
+      <li><b>Lux</b> — switch light measurement on and off.</li>
+      <li><b>ANEMO</b> — switch between airflow and wind speed.</li>
+      <li><b>dB</b> — measure the sound level.</li>
+    </ul>
     <ol class="tasks">
       <li>Temperature. Leave the sensor for 20 minutes. Press TEMP/%RH twice. The starting unit is °C.</li>
       <li>Humidity. Press TEMP/%RH twice more. The sensor answers in 5 seconds.</li>
@@ -87,6 +115,7 @@ light.en = function () {
     <p>Natural light is the most comfortable and even. When it is low or absent, artificial light is added: general, local or combined. The daylight factor is indoor illuminance divided by outdoor illuminance. This page has no lux table: the lab guide did not give numerical norms.</p>
     <p>Quantities: luminous flux in lumens, luminous intensity in candelas, illuminance in lux, luminance in cd/m². Sanitary norms prefer discharge lamps to incandescent lamps.</p>
     <h4>TKA-LUX</h4>
+    ${meterPhoto("tka-lux.png", 578, 588, "TKA-LUX luxmeter")}
     <ol class="tasks">
       <li>Switch on by turning the range selector.</li>
       <li>Cover the photometric head with thick dark cloth and read the dark signal Edark. This matters on the 0–20 and 0–200 lx ranges.</li>
@@ -105,6 +134,7 @@ dust.en = function () {
     <p>Industrial dust is fine particles that settle slowly. By origin it is organic or inorganic. By size the guide calls it coarse, fine, very fine and ultrafine. By harm it is toxic or non-toxic: non-toxic dust still causes occupational disease at a high concentration and a long exposure.</p>
     <p>It enters by breathing, digestion and the skin. Dust in the air is an aerosol; settled dust is an aerogel. The lung disease is pneumoconiosis: silicosis from silica, siderosis from iron, anthracosis from coal, asbestosis from asbestos.</p>
     <h4>GANK-4</h4>
+    ${meterPhoto("gank-4.png", 932, 620, "GANK-4 gas analyser")}
     <p>The method is optronic spectrophotometry. The reagent tape darkens at a rate proportional to concentration. The instrument calculates the current mass concentration from the darkening, the change in optical density, the analysis time and the sensitivity. The formula image in the guide is damaged, so the equation is not written here.</p>
     <ol class="tasks">
       <li>After preparation do not switch the instrument off: the zero resets. Mode (A) is outdoor air, (P) is the work zone.</li>
@@ -124,6 +154,7 @@ harm.en = function () {
     <p>Acute poisoning is a large amount at once. Signs come quickly: dizziness, nausea, vomiting, loss of consciousness. Chronic poisoning is a small amount over years and becomes a lasting illness. The poison usually enters through the lungs and the skin, rarely through the stomach. A substance that dissolves in water passes into the blood faster.</p>
     <p>Causes: broken safety and sanitation rules, poor work hygiene, an unfinished process, weak ventilation, poorly organised personal protection. The exposure limit is the amount of gas, in mg/m³, that causes no harmful change during daily work over many years.</p>
     <h4>Measurement</h4>
+    ${meterPhoto("gank-4.png", 932, 620, "GANK-4 gas analyser")}
     <p>GANK-4 measures mass concentration in the work zone in two modes. In the first, the average is taken over 15, 20 or 30 minutes. The second is continuous: the current and average values are stored, and an alarm sounds if the limit is passed. The steps are the same as in the dust lab.</p>
   </div>`;
 };
@@ -137,6 +168,7 @@ noise.en = function () {
     <p>The limits written in the lab guide are 40–100 dB for low frequencies, 85–90 dB for middle frequencies, and up to 75–85 dB for high frequencies called harmless there. Those are the numbers of that text, not a separate standard number.</p>
     <p>Long noise lowers hearing and vision, raises blood pressure and tires the nervous and cardiovascular systems. Protection has three directions: lower the source, shorten the path, protect the person. The most effective is to lower the source itself by design, material and process.</p>
     <h4>Sound level meter</h4>
+    ${meterPhoto("sound-meter.png", 564, 670, "Digital Sound Level Meter")}
     <ol class="tasks">
       <li>Place the Digital Sound Level Meter in the room and press power. After 2–3 seconds the level runs in real time.</li>
       <li>MAX holds the highest level until a higher one appears. Press MAX again to return to ordinary measurement.</li>
@@ -152,6 +184,7 @@ vibration.en = function () {
     <p>Long exposure causes vibration disease. The guide names four stages: pain in the hands and shoulders and broken sleep; lower sensitivity and blue skin; white fingers when the fist is closed; pain in all muscles and disturbed nerve and endocrine work. The hands and ankles are affected first.</p>
     <p>People under 18 and pregnant women are not taken for this work. Work is no more than 2/3 of a shift, with a 10–15 minute break every hour, and not more than one shift. Protection: lower the source, isolate vibration, place the machine well, and use damping gloves, shoes and mats. The clothing passes frequencies above 11 Hz. The guide writes the pass band as 16, 31.5 and 63 Hz, with attenuation of about 7–10 dB.</p>
     <h4>ASSISTENT</h4>
+    ${meterPhoto("assistent.png", 842, 782, "ASSISTENT noise and vibration analyser")}
     <ol class="tasks">
       <li>The instrument measures sound, infrasound, ultrasound, and whole-body and hand vibration. Open VIBRATION in the main menu.</li>
       <li>The V3RT option measures whole-body and hand vibration on three axes at once. V1 and V3 measure one chosen axis.</li>

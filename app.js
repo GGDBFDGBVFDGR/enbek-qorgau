@@ -64,6 +64,9 @@
       flow5: "Көмек қадамы",
       seeLabel: "Не көресіз",
       howLabel: "Қалай көрсетесіз",
+      comicOpen: "Комиксті үлкейту",
+      comicHint: "Мәтінді оқу үшін суретті басыңыз.",
+      comicClose: "Жабу",
       ambulance: "Жедел жәрдем",
       unified: "Бірыңғай нөмір",
       checkKicker: "Қысқа тексеру",
@@ -204,6 +207,9 @@
       flow5: "Шаг помощи",
       seeLabel: "Что видите",
       howLabel: "Как помогаете",
+      comicOpen: "Увеличить комикс",
+      comicHint: "Нажмите на рисунок, чтобы прочитать текст.",
+      comicClose: "Закрыть",
       ambulance: "Скорая",
       unified: "Единый номер",
       checkKicker: "Короткая проверка",
@@ -344,6 +350,9 @@
       flow5: "Help step",
       seeLabel: "What you see",
       howLabel: "How you help",
+      comicOpen: "Enlarge the comic",
+      comicHint: "Click the picture to read the text.",
+      comicClose: "Close",
       ambulance: "Ambulance",
       unified: "Single number",
       checkKicker: "Short check",
@@ -682,6 +691,12 @@
 
   const AID = [
     {
+      comic: "comic-minute",
+      comicAlt: {
+        kk: "Бірінші минут комиксі: адам құлап жатыр, айналаны қарау, 103 немесе 112 шалу, атымен шақыру, 10 секунд тынысын тексеру.",
+        ru: "Комикс «Первая минута»: человек упал, осмотреться, позвонить 103 или 112, позвать по имени, 10 секунд проверить дыхание.",
+        en: "First minute comic: a person has fallen, look around, call 103 or 112, call them by name, check breathing for 10 seconds."
+      },
       kk: {
         title: "Бірінші минут",
         see: "Адам құлап қалған, жауап бермейді немесе жарақаты бар. Не болғаны бірден түсініксіз.",
@@ -717,6 +732,12 @@
       }
     },
     {
+      comic: "comic-recovery",
+      comicAlt: {
+        kk: "Ессіз, тынысы бар комиксі: тұрақты бүйір қалпы — қолдың қалпы, тізені бүгу, аудару, басты шалқайту, 103 немесе 112.",
+        ru: "Комикс «Без сознания, дышит»: устойчивое боковое положение — руки, сгибание колена, поворот, запрокидывание головы, вызов 103 или 112.",
+        en: "Unconscious but breathing comic: the recovery position — arm placement, bend the knee, roll the person, tilt the head, call 103 or 112."
+      },
       kk: {
         title: "Ессіз, тынысы бар",
         see: "Адам жауап бермейді, бірақ кеудесі бірқалыпты көтеріледі.",
@@ -752,6 +773,12 @@
       }
     },
     {
+      comic: "comic-cpr",
+      comicAlt: {
+        kk: "Тыныс жоқ комиксі: адамды жатқызу, 103 шалу, қолдың орны, минутына 100–120 басу, 30 басу және 2 үрлеу, дефибриллятор.",
+        ru: "Комикс «Нет дыхания»: уложить на спину, позвонить 103, положение рук, 100–120 нажатий в минуту, 30 нажатий и 2 вдоха, дефибриллятор.",
+        en: "Not breathing comic: lay the person on their back, call 103, hand position, 100–120 presses a minute, 30 presses and 2 breaths, defibrillator."
+      },
       kk: {
         title: "Тыныс жоқ",
         see: "Адам жауап бермейді. Кеудесі қозғалмайды немесе демі сирек, шулы. Бұл қалыпты тыныс емес.",
@@ -790,6 +817,12 @@
       }
     },
     {
+      comic: "comic-bleed",
+      comicAlt: {
+        kk: "Қан кету комиксі: қолғап, тікелей қысым, матаны алмау, қолды көтеру, жгут тек өмірге қауіпті қанда, қан түрлері.",
+        ru: "Комикс «Кровотечение»: перчатки, прямое давление, не снимать ткань, поднять конечность, жгут только при угрозе жизни, типы кровотечений.",
+        en: "Bleeding comic: gloves, direct pressure, do not remove the cloth, raise the limb, tourniquet only if life-threatening, types of bleeding."
+      },
       kk: {
         title: "Қан кету",
         see: "Жарадан қан тоқтамай ағып жатыр немесе киім тез қанға толып жатыр.",
@@ -828,6 +861,12 @@
       }
     },
     {
+      comic: "comic-fracture",
+      comicAlt: {
+        kk: "Сынық комиксі: адамды қозғалтпау, ашық сынықта қанды тоқтату, жабық сынықта шина, саусақ түсі, шығу мен көгеру.",
+        ru: "Комикс «Перелом»: не перекладывать человека, при открытом переломе остановить кровь, при закрытом наложить шину, цвет пальцев, вывих и ушиб.",
+        en: "Fracture comic: do not move the person, stop bleeding in an open fracture, splint a closed fracture, check finger colour, dislocation and bruise."
+      },
       kk: {
         title: "Сынық",
         see: "Адам сүйек тұсын қатты ауыртады, қозғалта алмайды. Ашық сынықта жара және қан бар, жабық сынықта тері бүтін, ісік сол жерде.",
@@ -863,6 +902,12 @@
       }
     },
     {
+      comic: "comic-burn",
+      comicAlt: {
+        kk: "Күйік комиксі: 20 минут салқын су, киімді жұлып алмау, көпіршікті жармау, май мен мұз жақпау, таңғыш, 103.",
+        ru: "Комикс «Ожог»: 20 минут прохладная вода, прилипшую одежду не отрывать, пузыри не вскрывать, масло и лёд не наносить, повязка, вызов 103.",
+        en: "Burn comic: cool running water for 20 minutes, do not pull stuck clothing, do not open blisters, no oil or ice, cover with gauze, call 103."
+      },
       kk: {
         title: "Күйік",
         see: "Тері қызарған, күлдіреген немесе киім күйіп, жабысып қалған.",
@@ -901,6 +946,12 @@
       }
     },
     {
+      comic: "comic-shock",
+      comicAlt: {
+        kk: "Ток соғу комиксі: сымға жақындамау, токты ажырату, тынысын тексеру, кеуде басуы, күйікті суыту, 103.",
+        ru: "Комикс «Удар током»: не подходить к проводу, отключить ток, проверить дыхание, нажатия на грудь, охладить ожог, вызов 103.",
+        en: "Electric shock comic: stay away from the wire, switch off the power, check breathing, chest presses, cool the burn, call 103."
+      },
       kk: {
         title: "Ток соғу",
         see: "Адам сымға немесе құралға жабысып тұр, не токтан кейін құлап қалған.",
@@ -936,6 +987,12 @@
       }
     },
     {
+      comic: "comic-choke",
+      comicAlt: {
+        kk: "Тұншығу комиксі: жөтелге мүмкіндік беру, жауырын арасына 5 соққы, 5 ішті басу, кезектестіру, есінен танса 103.",
+        ru: "Комикс «Поперхнулся»: дать кашлять, 5 ударов между лопаток, 5 нажатий на живот, чередование, при потере сознания 103.",
+        en: "Choking comic: let them cough, 5 back blows, 5 abdominal thrusts, alternate, call 103 if they lose consciousness."
+      },
       kk: {
         title: "Тұншығу",
         see: "Адам жөтеле алмайды, сөйлей алмайды, тамағын ұстайды немесе ерні көгереді.",
@@ -1305,9 +1362,20 @@
       <p>${topic[lang][1]}</p>`;
   }
 
+  const METERS = [
+    { src: "ms-6300.png", w: 338, h: 562, kk: "MS-6300 сандық көп функционалды өлшегіш", ru: "Цифровой многофункциональный измеритель MS-6300", en: "MS-6300 digital multifunction meter" },
+    { src: "tka-lux.png", w: 578, h: 588, kk: "«ТКА-ЛЮКС» люксметрі", ru: "Люксметр «ТКА-ЛЮКС»", en: "TKA-LUX luxmeter" },
+    { src: "gank-4.png", w: 932, h: 620, kk: "ГАНК-4 газ анализаторы", ru: "Газоанализатор ГАНК-4", en: "GANK-4 gas analyser" },
+    { src: "gank-4.png", w: 932, h: 620, kk: "ГАНК-4 газ анализаторы", ru: "Газоанализатор ГАНК-4", en: "GANK-4 gas analyser" },
+    { src: "sound-meter.png", w: 564, h: 670, kk: "Digital Sound Level Meter шу өлшегіші", ru: "Шумомер Digital Sound Level Meter", en: "Digital Sound Level Meter" },
+    { src: "assistent.png", w: 842, h: 782, kk: "«АССИСТЕНТ» шу және діріл анализаторы", ru: "Анализатор шума и вибрации «АССИСТЕНТ»", en: "ASSISTENT noise and vibration analyser" }
+  ];
+
   function renderLabDetail() {
     const lab = LABS[labIndex];
     const pack = lab[lang];
+    const meter = METERS[labIndex];
+    const photo = meter ? `<figure class="meter"><img src="${meter.src}" width="${meter.w}" height="${meter.h}" alt=""><figcaption>${meter[lang]}</figcaption></figure>` : "";
     const fire = labIndex === 7 ? `
       <h3 style="margin-top:18px">${t("fireTitle")}</h3>
       <div class="fire" id="fire">
@@ -1317,6 +1385,7 @@
     document.getElementById("lab-detail").innerHTML = `
       <p class="kicker">${pack.manual || ""}</p>
       <h3>${pack.full || pack.title}</h3>
+      ${photo}
       <p>${pack.text}</p>
       <p><b>${t("you")}. </b>${pack.you}</p>
       <p class="measure"><b>${t("why")}. </b>${pack.why}</p>
@@ -1387,9 +1456,18 @@
       <button type="button" class="aid-tab${index === aidIndex ? " is-active" : ""}" data-aid="${index}" role="tab" aria-selected="${index === aidIndex}">
         ${item[lang].title}
       </button>`).join("");
-    const pack = AID[aidIndex][lang];
+    const item = AID[aidIndex];
+    const pack = item[lang];
+    const comic = item.comic ? `
+      <figure class="comic">
+        <button type="button" class="comic-open" data-comic-open aria-label="${t("comicOpen")}">
+          <img src="${item.comic}-${lang}.jpg" width="1024" height="558" alt="${item.comicAlt[lang]}">
+        </button>
+        <figcaption>${t("comicHint")}</figcaption>
+      </figure>` : "";
     document.getElementById("protocol").innerHTML = `
       <h3>${pack.title}</h3>
+      ${comic}
       <p class="see"><b>${t("seeLabel")}. </b>${pack.see}</p>
       <p class="how">${t("howLabel")}</p>
       <ol class="steps">${pack.steps.map((step, index) => `<li class="step"><span class="n">${index + 1}</span><p>${step}</p></li>`).join("")}</ol>`;
@@ -1596,6 +1674,15 @@
     const protocol = document.getElementById("protocol");
     protocol.addEventListener("pointermove", tiltProtocol);
     protocol.addEventListener("pointerleave", () => { protocol.style.transform = ""; });
+    protocol.addEventListener("click", (event) => {
+      const open = event.target.closest("[data-comic-open]");
+      if (!open) return;
+      const img = open.querySelector("img");
+      const full = document.getElementById("comic-full");
+      full.src = img.currentSrc || img.src;
+      full.alt = img.alt;
+      document.getElementById("comic-dialog").showModal();
+    });
 
     document.getElementById("quiz").addEventListener("click", (event) => {
       const option = event.target.closest("[data-option]");
